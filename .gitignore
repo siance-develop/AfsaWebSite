@@ -1,0 +1,14 @@
+# PowerPoint
+*.ppt
+*.pptx
+
+# 動画
+*.mp4
+*.mov
+
+# 一時ファイル
+.DS_Store
+Thumbs.db
+
+# 必要なら資料フォルダ
+portal/data/
