@@ -1,0 +1,968 @@
+/* General settings */
+.nwfc-news {color:var(--color-news_txtbg);}
+.nwfc-event {color:var(--color-event_txtbg);}
+.cr-main {background-color: var(--color-1st);}
+.cr-news {background-color: var(--color-news_txtbg);}
+.cr-event {background-color: var(--color-event_txtbg);}
+
+.jal01 {background-image: url(../img/ic/ic-jutaku.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+.jal02 {background-image: url(../img/ic/ic-mujin_heli.png); background-color: var(--color-intro); color: var(--color-intro_txt);}
+.jal03 {background-image: url(../img/ic/ic-yujin.png); background-color: var(--color-link); color: var(--color-link_txt);}
+.jal04 {background-image: url(../img/ic/ic-outline.png); background-color: var(--color-outline); color: var(--color-outline_txt);}
+.jal05 {background-image: url(../img/ic/ic-intro.png); background-color: var(--color-intro); color: var(--color-intro_txt);}
+.jal06 {background-image: url(../img/ic/ic-tech.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+.jal07 {background-image: url(../img/ic/ic-connection.png); background-color: var(--color-conne); color: var(--color-conne_txt);}
+.jal08 {background-image: url(../img/ic/ic-link.png); background-color: var(--color-link); color: var(--color-link_txt);}
+
+
+/* Style for PCs */
+@media screen and (min-width: 1025px) {
+
+/* TopSection
+----------------------------------------------------------------*/
+.topsection {
+  width:100%;
+  height: 600px;
+  display: block;
+  overflow: hidden;
+  margin-top:150px;
+  background-image: url(../img/index/tsimg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.tscov_b {
+  width:100%;
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  background-image: url(../img/index/cov-tech.png);
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-size: 100% auto;
+}
+.tscov_t {
+  width:100%;
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  padding:80px 5% 0;
+  background-image: url(../img/index/slidecov_t.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 350px;
+}
+.tscov_t h2 {
+  font-size:38px;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  line-height: 1.6em;
+  margin:0;
+  color:var(--color-1st);
+}
+
+
+
+/* SectionTitle
+----------------------------------------------------------------*/
+.sectitle {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sectitle h2 {
+  font-size: 140%;
+  font-weight: 700;
+  line-height: 1.25em;
+  order:2;
+}
+.sectitle p {
+  font-size: 80%;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin-bottom: 8px;
+  order:1;
+}
+
+/* News
+----------------------------------------------------------------*/
+.newsmm {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.nwline01 {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  background-image: url(../img/index/news_line02bg.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+}
+.news01 {
+  width:50%;
+  height: auto;
+  display: block;
+  padding:20px 5% 100px;
+  background-color: var(--color-outline);
+}
+.news02 {
+  width:50%;
+  height: auto;
+  display: block;
+  padding:20px 5% 100px;
+  background-color: var(--color-intro);
+  margin-left:auto;
+}
+.nwline02 {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: var(--color-tech);
+}
+.nwline02 .nwl02cov_b {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:3% 5% 10%;
+  background-image: url(../img/index/slidecov_b.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+}
+p.nwcautiontxt {
+  width:80%;
+  height: auto;
+  display: block;
+  font-size:14px;
+  line-height: 1.6em;
+  margin:0 auto 25px;
+  padding:25px;
+  background-color: rgb(243, 236, 206);
+  border-radius: 10px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.1);
+}
+.nwbottomline {
+  width:100%;
+  height: auto;
+  display: block;
+}
+
+
+/* 農水協会ができること
+----------------------------------------------------------------*/
+.jaaa_about {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:50px 5%;
+}
+
+.jaline01 {
+  width:100%;
+  height: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+.jaline01 h2 {
+  font-size: 150%;
+  font-weight: 400;
+  font-family: var(--ft-min);
+  line-height: 1.25em;
+  text-align: center;
+  color: var(--color-1st);
+  margin-bottom: 40px;
+}
+
+.jabanner01 {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.jabanner01 li {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 2%;
+  text-align: center;
+}
+.jabanner01 li a {
+  width:100%;
+  height: 170px;
+  display: block;
+  padding:110px 0 30px 0;
+  font-size:100%;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-decoration: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 120px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.jabanner01 li a:hover {
+  color: var(--color-black);
+  background-color: var(--color-f5);
+}
+.jabanner01 li a span {
+  display: block;
+  font-size:80%;
+  line-height: 15px;
+}
+
+.jaline02 {
+  width:80%;
+  max-width:1280px;
+  height: auto;
+  display: block;
+  margin:0 auto 50px;
+}
+
+.jaline03 {
+  width:100%;
+  height: auto;
+  display: block;
+  margin:0 auto;
+}
+
+.jabanner02 {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jabanner02 li:nth-child(1) {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 1% 30px 18.5%;
+  text-align: center;
+}
+.jabanner02 li:nth-child(2) {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 18.5% 30px 1%;
+  text-align: center;
+}
+.jabanner02 li:nth-child(n + 3) {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 2% 30px;
+  text-align: center;
+}
+.jabanner02 li a {
+  width:100%;
+  height: 170px;
+  display: block;
+  padding:110px 0 30px 0;
+  font-size:100%;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-decoration: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 120px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.jabanner02 li a:hover {
+  color: var(--color-black);
+  background-color: var(--color-f5);
+}
+.jabanner02 li a.jban_l2 {
+  padding:110px 0 10px 0;
+}
+
+
+/* 団体概要 */
+.outlinedata {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:0px 5% 100px;
+  text-align: center;
+}
+.outlinedata h2 {
+  font-size: 120%;
+  font-family: var(--ft-min);
+  font-weight: 300;
+  color:var(--color-1st);
+  margin-bottom:5px;
+}
+.outlinedata p {
+  font-size: 90%;
+  line-height: 2em;
+}
+.outlinedata p.p_od01 {
+  margin-bottom:0px;
+}
+.outlinedata p.p_od02 {
+  margin-bottom:10px;
+}
+.outlinedata p.p_od03 {
+  color:var(--color-1st);
+  margin-bottom:0px;
+}
+
+}
+
+
+/* Style for iPad Pro */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  /* TopSection
+----------------------------------------------------------------*/
+.topsection {
+  width:100%;
+  height: 600px;
+  display: block;
+  overflow: hidden;
+  margin-top:150px;
+  background-image: url(../img/index/tsimg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.tscov_b {
+  width:100%;
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  background-image: url(../img/index/cov-tech.png);
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-size: 100% auto;
+}
+.tscov_t {
+  width:100%;
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  padding:50px 5% 0;
+  background-image: url(../img/index/slidecov_t.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 250px;
+}
+.tscov_t h2 {
+  font-size: 1.5rem;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  line-height: 1.6em;
+  margin:0;
+  color:var(--color-1st);
+}
+
+
+
+/* SectionTitle
+----------------------------------------------------------------*/
+.sectitle {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sectitle h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.25em;
+  order:2;
+}
+.sectitle p {
+  font-size: 60%;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin-bottom: 8px;
+  order:1;
+}
+
+/* News
+----------------------------------------------------------------*/
+.newsmm {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.nwline01 {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.news01 {
+  width:50%;
+  height: auto;
+  display: block;
+  padding:20px 5% 50px;
+  background-color: var(--color-outline);
+}
+.news02 {
+  width:50%;
+  height: auto;
+  display: block;
+  padding:20px 5% 50px;
+  background-color: var(--color-intro);
+  margin-left:auto;
+}
+.nwline02 {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: var(--color-tech);
+}
+.nwline02 .nwl02cov_b {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:8% 5% 10%;
+  background-image: url(../img/index/slidecov_b.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+}
+
+p.nwcautiontxt {
+  width:100%;
+  height: auto;
+  display: block;
+  font-size:14px;
+  line-height: 1.6em;
+  margin:0 auto 25px;
+  padding:25px;
+  background-color: rgb(243, 236, 206);
+  border-radius: 10px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.1);
+}
+.nwbottomline {
+  width:100%;
+  height: auto;
+  display: block;
+}
+
+
+/* 農水協会ができること
+----------------------------------------------------------------*/
+.jaaa_about {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:50px 5%;
+}
+
+.jaline01 {
+  width:100%;
+  height: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+.jaline01 h2 {
+  font-size: 3.2rem;
+  font-weight: 400;
+  font-family: var(--ft-min);
+  line-height: 1.25em;
+  text-align: center;
+  color: var(--color-1st);
+  margin-bottom: 40px;
+}
+
+.jabanner01 {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.jabanner01 li {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 2%;
+  text-align: center;
+}
+.jabanner01 li a {
+  width:100%;
+  height: 170px;
+  display: block;
+  padding:110px 0 30px 0;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 120px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.jabanner01 li a:hover {
+  color: var(--color-black);
+  background-color: var(--color-f5);
+}
+.jabanner01 li a span {
+  display: block;
+  font-size:11px;
+  line-height: 15px;
+}
+
+.jaline02 {
+  width:80%;
+  max-width:1280px;
+  height: auto;
+  display: block;
+  margin:0 auto 50px;
+}
+
+.jaline03 {
+  width:100%;
+  height: auto;
+  display: block;
+  margin:0 auto;
+}
+
+.jabanner02 {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jabanner02 li:nth-child(1) {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 1% 30px 18.5%;
+  text-align: center;
+}
+.jabanner02 li:nth-child(2) {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 18.5% 30px 1%;
+  text-align: center;
+}
+.jabanner02 li:nth-child(n + 3) {
+  width:29.3333333333%;
+  height: auto;
+  display: block;
+  margin:0 2% 30px;
+  text-align: center;
+}
+.jabanner02 li a {
+  width:100%;
+  height: 170px;
+  display: block;
+  padding:110px 0 30px 0;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 120px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.jabanner02 li a:hover {
+  color: var(--color-black);
+  background-color: var(--color-f5);
+}
+.jabanner02 li a.jban_l2 {
+  padding:110px 0 10px 0;
+}
+
+
+/* 団体概要 */
+.outlinedata {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:0px 5% 100px;
+  text-align: center;
+}
+.outlinedata h2 {
+  font-size: 2rem;
+  font-family: var(--ft-min);
+  font-weight: 300;
+  color:var(--color-1st);
+  margin-bottom:5px;
+}
+.outlinedata p {
+  font-size: 90%;
+  line-height: 2em;
+}
+.outlinedata p.p_od01 {
+  margin-bottom:0px;
+}
+.outlinedata p.p_od02 {
+  margin-bottom:10px;
+}
+.outlinedata p.p_od03 {
+  color:var(--color-1st);
+  margin-bottom:0px;
+}
+
+}
+
+/* Style for Smartphone */
+@media screen and (max-width: 768px) {
+
+    /* TopSection
+----------------------------------------------------------------*/
+.topsection {
+  width:100%;
+  height: 480px;
+  display: block;
+  overflow: hidden;
+  margin-top:100px;
+  background-image: url(../img/index/tsimg.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.tscov_b {
+  width:100%;
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  background-image: url(../img/index/cov-tech.png);
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-size: 100% auto;
+}
+.tscov_t {
+  width:100%;
+  height: 100%;
+  min-height: 100%;
+  display: block;
+  padding:0px 10% 0 5%;
+  background-image: url(../img/index/slidecov_t.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 150% 200px;
+}
+.tscov_t h2 {
+  font-size: 1.5rem;
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 400;
+  line-height: 1.6em;
+  margin:0;
+  color:var(--color-1st);
+}
+.tscov_t h2 br {
+  display: none;
+}
+
+
+
+/* SectionTitle
+----------------------------------------------------------------*/
+.sectitle {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.sectitle h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.25em;
+  order:2;
+}
+.sectitle p {
+  font-size: 80%;
+  font-weight: 400;
+  line-height: 1.25em;
+  margin-bottom: 8px;
+  order:1;
+}
+
+/* News
+----------------------------------------------------------------*/
+.newsmm {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.nwline01 {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.news01 {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:50px 5% 15%;
+  background-color: var(--color-outline);
+  background-image: url(../img/index/cov-intro.png);
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-size: 100% auto;
+}
+.news02 {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:50px 5% 15%;
+  background-color: var(--color-intro);
+  margin-left:auto;
+  background-image: url(../img/index/news_line02bg.png);
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-size: 100% auto;
+}
+.nwline02 {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: var(--color-tech);
+}
+.nwline02 .nwl02cov_b {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:8% 5% 15%;
+  background-image: url(../img/index/cov-outline.png);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100% auto;
+}
+
+p.nwcautiontxt {
+  width:100%;
+  height: auto;
+  display: block;
+  font-size:14px;
+  line-height: 1.6em;
+  margin:0 auto 25px;
+  padding:25px;
+  background-color: rgb(243, 236, 206);
+  border-radius: 10px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.1);
+}
+.nwbottomline {
+  display:none;
+}
+
+
+/* 農水協会ができること
+----------------------------------------------------------------*/
+.jaaa_about {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:50px 5%;
+}
+
+.jaline01 {
+  width:100%;
+  height: auto;
+  display: block;
+  margin-bottom: 50px;
+}
+.jaline01 h2 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  font-family: var(--ft-min);
+  line-height: 1.25em;
+  text-align: center;
+  color: var(--color-1st);
+  margin-bottom: 40px;
+}
+
+.jabanner01 {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+.jabanner01 li {
+  width:48%;
+  height: auto;
+  display: block;
+  margin:0 1% 10px;
+  text-align: center;
+}
+.jabanner01 li:nth-child(3) {
+  width:48%;
+  height: auto;
+  display: block;
+  margin:0 26% 10px;
+  text-align: center;
+}
+.jabanner01 li a {
+  width:100%;
+  height: 170px;
+  display: block;
+  padding:110px 5% 30px 5%;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 120px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.jabanner01 li a:hover {
+  color: var(--color-black);
+  background-color: var(--color-f5);
+}
+.jabanner01 li a span {
+  display: block;
+  font-size:11px;
+  line-height: 15px;
+}
+
+.jaline02 {
+  width:100%;
+  height: auto;
+  display: block;
+  margin:0 auto 50px;
+}
+
+.jaline03 {
+  width:100%;
+  height: auto;
+  display: block;
+  margin:0 auto;
+}
+
+.jabanner02 {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 0px;
+}
+.jabanner02 li {
+  width:48%;
+  height: auto;
+  display: block;
+  margin:0 1% 10px;
+  text-align: center;
+}
+.jabanner02 li:nth-child(3) {
+  width:48%;
+  height: auto;
+  display: block;
+  margin:0 26% 10px;
+  text-align: center;
+}
+.jabanner02 li a {
+  width:100%;
+  height: 170px;
+  display: block;
+  padding:110px 0 30px 0;
+  font-size: 90%;
+  font-weight: 700;
+  line-height: 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 120px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.jabanner02 li a:hover {
+  color: var(--color-black);
+  background-color: var(--color-f5);
+}
+.jabanner02 li a.jban_l2 {
+  padding:110px 0 10px 0;
+}
+
+
+/* 団体概要 */
+.outlinedata {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:0px 5% 100px;
+  text-align: center;
+}
+.outlinedata h2 {
+  font-size: 1.5rem;
+  font-family: var(--ft-min);
+  font-weight: 300;
+  color:var(--color-1st);
+  margin-bottom:5px;
+}
+.outlinedata p {
+  font-size: 90%;
+  line-height: 2em;
+}
+.outlinedata p.p_od01 {
+  margin-bottom:0px;
+}
+.outlinedata p.p_od02 {
+  margin-bottom:10px;
+}
+.outlinedata p.p_od03 {
+  color:var(--color-1st);
+  margin-bottom:0px;
+}
+
+}

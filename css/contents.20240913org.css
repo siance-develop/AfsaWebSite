@@ -1,0 +1,880 @@
+/* General settings */
+.ic-pdf {background-image: url(../img/ic/pdfi.png);}
+.ic-word {background-image: url(../img/ic/yoshiki.png);}
+.ic-exl {background-image: url(../img/ic/yoshiki2.png);}
+.ic-zip {background-image: url(../img/ic/yoshiki3.png);}
+.ic-outside {background-image: url(../img/ic/outside.png);}
+
+
+/* Style for PCs */
+@media screen and (min-width: 1025px) {
+
+
+
+/* pagetitle */
+.pagetitle {
+  width:100%;
+  height: auto;
+  display: block;
+  background-image: url(../img/ptimg.jpg);
+  background-position: center 75%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+
+.ptcov {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  background-image: url(../img/header/cc_logobg.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 80% 110px;
+}
+.pagetitle h2 {
+  width:100%;
+  height: auto;
+  display: block;
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 1.4em;
+  color: var(--color-black);
+  text-align: center;
+  margin-top:15%;
+  padding:3% 3% 10px;
+  background-image: url(../img/ptcov.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+}
+.pagetitle ul {
+  width:100%;
+  display: block;
+  text-align: center;
+  background-color: var(--color-white);
+}
+.pagetitle ul li {
+  display: inline-block;
+  font-size:55%;
+  line-height: 20px;
+}
+.pagetitle ul li:after {
+  content:" >";
+  margin-right:0.5em;
+}
+.pagetitle ul li:last-child:after {
+  content:"";
+  margin-right:0;
+}
+
+
+/* Access */
+.mapmm iframe {
+  height: 500px;
+}
+
+/* PageTab */
+.pagetab {
+  width:100%;
+  height:41px;
+  display: block;
+  background-image: url(../img/box-1st.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 100% 1px;
+  margin-top:50px;
+  margin-bottom: 30px;
+}
+.pagetab ul {
+  width:94%;
+  height:41px;
+  display: flex;
+  justify-content: flex-start;
+  margin:0 auto;
+}
+.pagetab ul li {
+  flex:1;
+}
+.pagetab ul li a {
+  width:100%;
+  height: 41px;
+  display: block;
+  text-align: center;
+  font-size: 90%;
+  color:var(--color-999);
+  text-decoration: none;
+  line-height: 40px;
+  border-top:1px solid var(--color-ccc);
+  border-right:1px solid var(--color-ccc);
+  border-left:1px solid var(--color-ccc);
+  border-bottom:1px solid var(--color-1st);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--color-f8);
+}
+.pagetab ul li a br {
+  display: none;
+}
+.pagetab ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-tech_txt);
+}
+.pagetab ul li a.pt_selected {
+  color: var(--color-black);
+  font-weight: 700;
+  background-color: var(--color-white);
+  border-top:1px solid var(--color-tech_txt);
+  border-right:1px solid var(--color-tech_txt);
+  border-left:1px solid var(--color-tech_txt);
+  border-bottom:1px solid var(--color-white)!important;
+}
+
+
+/* PageTab(SubContents) */
+.pagetab_ss {
+  width:90%;
+  height:35px;
+  display: block;
+  margin:0 auto 10px;
+}
+.pagetab_ss ul {
+  width:100%;
+  height:35px;
+  display: flex;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_ss ul li {
+  flex:1;
+  margin:0 0.5%;
+}
+.pagetab_ss ul li a {
+  width:100%;
+  height: 35px;
+  display: block;
+  text-align: center;
+  font-size: 90%;
+  color:var(--color-1st);
+  text-decoration: none;
+  line-height: 33px;
+  border:1px solid var(--color-1st);
+  border-radius: 5px;
+}
+.pagetab_ss ul li a br {
+  display:none;
+}
+.pagetab_ss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_ss ul li a.pts_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-1st);
+}
+
+/* PageTab(SubSubContents) */
+.pagetab_sss {
+  width:90%;
+  height:30px;
+  display: block;
+  margin:0 auto;
+}
+.pagetab_sss ul {
+  width:100%;
+  height:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_sss ul li {
+  flex:auto;
+  margin:0 0.5%;
+}
+.pagetab_sss ul li a {
+  width:100%;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-outline_txt);
+  background-color: var(--color-outline);
+  text-decoration: none;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.pagetab_sss ul li a br {
+  display: none;
+}
+.pagetab_sss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_sss ul li a.ptss_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-outline_txt);
+}
+
+
+/* List */
+ul.filelist {
+  width:100%;
+  height: auto;
+  display: block;
+}
+ul.filelist li {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size:80%;
+  line-height: 1.4em;
+  margin:10px 0 0 5px;
+}
+ul.filelist li ul {
+  width:95.5%;
+  height:auto;
+  display: block;
+  margin:0 0 0 4%;
+}
+ul.filelist li ul li {
+  font-size:100%;
+}
+ul.filelist li a {
+  width:100%;
+  height:auto;
+  display: block;
+  line-height: 1.4em;
+  padding:1em 1em 1em 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: auto 24px;
+  background-color: var(--color-f8);
+  border-radius: 5px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  color:var(--color-black);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+ul.filelist li a:hover {
+  color:var(--color-white);
+  background-color: var(--color-1st);
+}
+
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+
+}
+
+
+/* Style for iPad Pro */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  /* pagetitle */
+.pagetitle {
+  width:100%;
+  height: auto;
+  display: block;
+  background-image: url(../img/ptimg.jpg);
+  background-position: center 85%;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  background-size: cover;
+}
+.ptcov {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0px;
+  background-image: url(../img/header/cc_logobg.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 60% 200px;
+}
+.pagetitle h2 {
+  width:100%;
+  height: auto;
+  display: block;
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 1.4em;
+  color: var(--color-black);
+  text-align: center;
+  margin-top:25%;
+  padding:3% 3% 10px;
+  background-image: url(../img/ptcov.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+}
+.pagetitle ul {
+  width:100%;
+  display: block;
+  text-align: center;
+  background-color: var(--color-white);
+  padding-bottom: 50px;
+}
+.pagetitle ul li {
+  display: inline-block;
+  font-size:62.5%;
+  line-height: 20px;
+}
+.pagetitle ul li:after {
+  content:" >";
+  margin-right:0.5em;
+}
+.pagetitle ul li:last-child:after {
+  content:"";
+  margin-right:0;
+}
+
+/* Main */
+main {
+  min-height: 600px;
+}
+
+
+/* Access */
+.mapmm iframe {
+  height: 500px;
+}
+
+
+/* PageTab */
+.pagetab {
+  width:100%;
+  height:41px;
+  display: block;
+  background-image: url(../img/box-1st.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 100% 1px;
+  margin-bottom: 30px;
+}
+.pagetab ul {
+  width:94%;
+  height:41px;
+  display: flex;
+  justify-content: flex-start;
+  margin:0 auto;
+}
+.pagetab ul li {
+  flex:1;
+}
+.pagetab ul li a {
+  width:100%;
+  height: 41px;
+  display: block;
+  text-align: center;
+  font-size:62.5%;
+  color:var(--color-999);
+  text-decoration: none;
+  line-height: 40px;
+  border-top:1px solid var(--color-ccc);
+  border-right:1px solid var(--color-ccc);
+  border-left:1px solid var(--color-ccc);
+  border-bottom:1px solid var(--color-1st);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--color-f8);
+}
+.pagetab ul li a br {
+  display: none;
+}
+.pagetab ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-tech_txt);
+}
+.pagetab ul li a.pt_selected {
+  color: var(--color-black);
+  font-weight: 700;
+  background-color: var(--color-white);
+  border-top:1px solid var(--color-tech_txt);
+  border-right:1px solid var(--color-tech_txt);
+  border-left:1px solid var(--color-tech_txt);
+  border-bottom:1px solid var(--color-white)!important;
+}
+
+
+/* PageTab(SubContents) */
+.pagetab_ss {
+  width:90%;
+  height:35px;
+  display: block;
+  margin:0 auto 10px;
+}
+.pagetab_ss ul {
+  width:100%;
+  height:35px;
+  display: flex;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_ss ul li {
+  flex:1;
+  margin:0 0.5%;
+}
+.pagetab_ss ul li a {
+  width:100%;
+  height: 35px;
+  display: block;
+  text-align: center;
+  font-size: 90%;
+  color:var(--color-1st);
+  text-decoration: none;
+  line-height: 33px;
+  border:1px solid var(--color-1st);
+  border-radius: 5px;
+}
+.pagetab_ss ul li a br {
+  display:none;
+}
+.pagetab_ss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_ss ul li a.pts_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-1st);
+}
+
+/* PageTab(SubSubContents) */
+.pagetab_sss {
+  width:90%;
+  height:30px;
+  display: block;
+  margin:0 auto 30px;
+}
+.pagetab_sss ul {
+  width:100%;
+  height:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin:0 auto;
+}
+.pagetab_sss ul li {
+  width:49%;
+  margin:0 0.5% 8px;
+}
+.pagetab_sss ul li a {
+  width:100%;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-outline_txt);
+  background-color: var(--color-outline);
+  text-decoration: none;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.pagetab_sss ul li a br {
+  display: none;
+}
+.pagetab_sss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_sss ul li a.ptss_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-outline_txt);
+}
+
+
+/* List */
+ul.filelist {
+  width:100%;
+  height: auto;
+  display: block;
+}
+ul.filelist li {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size:80%;
+  line-height: 1.4em;
+  margin:10px 0 0 5px;
+}
+ul.filelist li ul {
+  width:95.5%;
+  height:auto;
+  display: block;
+  margin:0 0 0 4%;
+}
+ul.filelist li ul li {
+  font-size:100%;
+}
+ul.filelist li a {
+  width:100%;
+  height:auto;
+  display: block;
+  line-height: 1.4em;
+  padding:1em 1em 1em 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: auto 24px;
+  background-color: var(--color-f8);
+  border-radius: 5px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  color:var(--color-black);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+ul.filelist li a:hover {
+  color:var(--color-white);
+  background-color: var(--color-1st);
+}
+
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+
+}
+
+/* Style for Smartphone */
+@media screen and (max-width: 768px) {
+
+main {
+  background-color: var(--color-white);
+}
+
+  /* pagetitle */
+  .pagetitle {
+    width:100%;
+    height: auto;
+    display: block;
+    background-image: url(../img/ptimg.jpg);
+    background-position: center 100%;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+  }
+  .ptcov {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    background-image: url(../img/header/cc_logobg.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 150% 80px;
+  }
+  .pagetitle h2 {
+    width:100%;
+    height: auto;
+    display: block;
+    font-size: 120%;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: var(--color-black);
+    text-align: center;
+    margin-top:35%;
+    padding:7% 3% 10px;
+    background-image: url(../img/ptcov.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  .pagetitle ul {
+    width:100%;
+    display: block;
+    text-align: center;
+    background-color: var(--color-white);
+    padding-bottom: 30px;
+  }
+.pagetitle ul li {
+  display: inline-block;
+  font-size: 80%;
+  line-height: 1.4em;
+}
+.pagetitle ul li:after {
+  content:" >";
+  margin-right:0.5em;
+}
+.pagetitle ul li:last-child:after {
+  content:"";
+  margin-right:0;
+}
+
+/* Main */
+main {
+  min-height: 400px;
+}
+
+/* Access */
+.mapmm iframe {
+  height: 350px;
+}
+
+
+/* PageTab */
+.pagetab {
+  width:100%;
+  height:auto;
+  display: block;
+  background-image: url(../img/box-1st.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 100% 1px;
+  margin-bottom: 30px;
+}
+.pagetab ul {
+  width:98%;
+  height:auto;
+  display: flex;
+  margin:0 auto;
+}
+.pagetab ul li {
+  flex:1;
+}
+.pagetab ul li a {
+  width:100%;
+  height: 50px;
+  min-height: 3em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 70%;
+  padding:0px 3px;
+  color:var(--color-999);
+  text-decoration: none;
+  line-height: 1em;
+  letter-spacing: -1px;
+  border-top:1px solid var(--color-ccc);
+  border-right:1px solid var(--color-ccc);
+  border-left:1px solid var(--color-ccc);
+  border-bottom:1px solid var(--color-1st);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--color-f8);
+}
+.pagetab ul li a br {
+  display: none;
+}
+.pagetab ul li a.pt1l {
+  height: 50px!important;
+  line-height: 50px;
+}
+.pagetab ul li a.pt2l {
+  height: 50px!important;
+  line-height: 1em;
+  padding:0;
+}
+.pagetab ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-tech_txt);
+}
+.pagetab ul li a.pt_selected {
+  height: 50px!important;
+  color: var(--color-black);
+  font-weight: 700;
+  background-color: var(--color-white);
+  border-top:1px solid var(--color-tech_txt);
+  border-right:1px solid var(--color-tech_txt);
+  border-left:1px solid var(--color-tech_txt);
+  border-bottom:1px solid var(--color-white)!important;
+}
+
+
+/* PageTab(SubContents) */
+.pagetab_ss {
+  width:98%;
+  height:auto;
+  display: block;
+  margin:0 auto 10px;
+}
+.pagetab_ss ul {
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_ss ul li {
+  flex:1;
+  margin:0 0.5%;
+}
+.pagetab_ss ul li a {
+  width:100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-1st);
+  text-decoration: none;
+  line-height: 1.25em;
+  border:1px solid var(--color-1st);
+  border-radius: 5px;
+  padding:5px 0;
+}
+.pagetab_ss ul li a.pts1l {
+  line-height: 2.5em;
+}
+.pagetab_ss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_ss ul li a.pts_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-1st);
+}
+
+/* PageTab(SubSubContents) */
+.pagetab_sss {
+  width:90%;
+  height:auto;
+  display: block;
+  margin:0 auto 30px;
+}
+.pagetab_sss ul {
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin:0 auto;
+}
+.pagetab_sss ul li {
+  width:49%;
+  margin:0 0.5% 8px;
+}
+.pagetab_sss ul li a {
+  width:100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-outline_txt);
+  background-color: var(--color-outline);
+  text-decoration: none;
+  line-height: 1.25em;
+  border-radius: 5px;
+  padding:5px 0;
+}
+.pagetab_sss ul li a.ptss1l {
+  line-height: 3.75em;
+}
+.pagetab_sss ul li a.ptss2l {
+  line-height: 1.25em;
+  padding:1.04em 0;
+}
+.pagetab_sss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_sss ul li a.ptss_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-outline_txt);
+}
+
+
+/* List */
+ul.filelist {
+  width:100%;
+  height: auto;
+  display: block;
+}
+ul.filelist li {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size: 90%;
+  line-height: 1.4em;
+  margin:10px 0 0 5px;
+}
+ul.filelist li ul {
+  width:95.5%;
+  height:auto;
+  display: block;
+  margin:0 0 0 4%;
+}
+ul.filelist li a {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size: 90%;
+  line-height: 1.4em;
+  padding:1em 1em 1em 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: auto 24px;
+  background-color: var(--color-f8);
+  border-radius: 5px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  color:var(--color-black);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+ul.filelist li a:hover {
+  color:var(--color-white);
+  background-color: var(--color-1st);
+}
+
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+}

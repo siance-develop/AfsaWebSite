@@ -1,0 +1,176 @@
+/* Style for PCs */
+@media screen and (min-width: 1025px) {
+
+  /* Menu botton*/
+  .menubn {
+    display: none;
+  }
+
+  .menubn span {
+    display: none;
+  }
+
+  .menubn span:nth-child(1) {
+    display: none;
+  }
+
+  .menubn span:nth-child(2) {
+    display: none;
+  }
+
+  .menubn span:nth-child(3) {
+    display: none;
+  }
+
+  /* ナビ開いてる時のボタン */
+  .menubn.active span:nth-child(1) {
+    display: none;
+  }
+
+  .menubn.active span:nth-child(2),
+  .menubn.active span:nth-child(3) {
+    display: none;
+  }
+
+  nav.globalmenu {
+    width: 100%;
+    height: 70px;
+    display: block;
+    position: fixed;
+    z-index: 19500;
+    top: 110px;
+    left: 0;
+    text-align: center;
+    padding:0;
+    background-color: var(--color-white);
+    border-top:1px solid var(--color-999);
+    border-bottom:1px solid var(--color-999);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+
+  nav.globalmenu ul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav.globalmenu ul li {
+    list-style-type: none;
+    padding: 0;
+    flex: 1;
+    transition: .4s all;
+    border-right: 1px dotted var(--color-999);
+  }
+
+  nav.globalmenu ul li:last-child {
+    border-right: none;
+  }
+
+  nav.globalmenu ul li a {
+    width: 100%;
+    height: 70px;
+    display: block;
+    font-size:1rem;
+    font-weight: 400;
+    line-height: 18px;
+    padding:26px 0;
+    color: var(--color-black);
+    text-decoration: none;
+    transition: .4s all;
+  }
+  nav.globalmenu ul li a.gm_l2 {
+    padding:17px 0;
+  }
+  nav.globalmenu ul li a:hover {
+    color:var(--color-white);
+    background-color: var(--color-1st);
+  }
+
+  nav.globalmenu ul li a.gm_selected {
+    color:var(--color-white);
+    background-color: var(--color-1st);
+  }
+
+  /* Globalmenu (active) */
+  nav.globalmenu.gm_act {
+    width: 81%;
+    height: 60px;
+    display: block;
+    position: fixed;
+    z-index: 19500;
+    top: 0px;
+    left: auto;
+    right:0;
+    text-align: center;
+    padding:0;
+    border-top:none;
+    border-bottom:none;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+
+  nav.globalmenu.gm_act ul {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+  }
+
+  nav.globalmenu.gm_act ul li {
+    list-style-type: none;
+    padding: 0;
+    flex: 1;
+    transition: .4s all;
+    border-right: 1px dotted var(--color-999);
+  }
+
+  nav.globalmenu.gm_act ul li:last-child {
+    border-right: none;
+  }
+
+  nav.globalmenu.gm_act ul li a {
+    width: 100%;
+    height: 60px;
+    display: block;
+    font-size: 0.8rem;
+    font-weight: 400;
+    line-height: 18px;
+    padding:21px 0;
+    color: var(--color-black);
+    text-decoration: none;
+    transition: .4s all;
+  }
+  nav.globalmenu.gm_act ul li a.gm_l2 {
+    padding:12px 0;
+  }
+  nav.globalmenu.gm_act ul li a:hover {
+    color:var(--color-white);
+    background-color: var(--color-1st);
+  }
+
+  nav.globalmenu.gm_act ul li a.gm_selected {
+    color:var(--color-white);
+    background-color: var(--color-1st);
+  }
+
+  /* このクラスを、jQueryで付与・削除する */
+  nav.globalmenu.active {
+    opacity: 100;
+
+  }
+
+}

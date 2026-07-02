@@ -1,0 +1,1701 @@
+/* Already added 202408 */
+.container20240704 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: white;
+}
+.responsive-img20240704 {
+  width: 85%;
+  height: auto;
+  display: inline-block;
+  border-radius: 15px;
+}
+
+.container20250901 {
+  width: 85%;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #d8eef5;
+}
+
+/* PC用のスタイル */
+@media (min-width: 1024px) {
+  .container20240704 {
+      width: 75%;
+  }
+  .container20250901 {
+      width: 75%;
+  }
+  .responsive-img20240704 {
+      width: 75%;
+  }
+}
+
+/* iPhone用のスタイル */
+@media (max-width: 768px) {
+  .container20240704 {
+      width: 100%;
+  }
+  .container20250901 {
+      width: 100%;
+  }
+  .responsive-img20240704 {
+      width: 100%;
+  }
+}
+
+
+/* テキストカラー指定 */
+.fc_drone_kensa {
+  color:var(--color-drone_kensa_txt)!important;
+}
+.fc_drone_kousyu {
+  color:var(--color-drone_kousyu_txt)!important;
+}
+
+.pagetab ul li a.tab_yujin {
+  color:var(--color-link_txt)!important;
+  background-color: var(--color-link);
+}
+.pagetab ul li a.tab_yujin:hover {
+  color: var(--color-white)!important;
+  background-color: var(--color-link_txt);
+}
+
+.pagetab ul li a.tab_mujin {
+  color:var(--color-intro_txt)!important;
+  background-color: var(--color-intro);
+}
+.pagetab ul li a.tab_mujin:hover {
+  color: var(--color-white)!important;
+  background-color: var(--color-intro_txt);
+}
+
+.pagetab ul li a.tab_jutaku {
+  color:var(--color-tech_txt)!important;
+  background-color: var(--color-tech);
+}
+.pagetab ul li a.tab_jutaku:hover {
+  color: var(--color-white)!important;
+  background-color: var(--color-tech_txt);
+}
+
+
+.pagetab ul li a.tab_drone_kensa {
+  color:var(--color-drone_kensa_txt)!important;
+  background-color: var(--color-drone_kensa);
+}
+.pagetab ul li a.tab_drone_kensa:hover {
+  color: var(--color-white)!important;
+  background-color: var(--color-drone_kensa_txt);
+}
+
+.pagetab ul li a.tab_drone_kousyu {
+  color:var(--color-drone_kousyu_txt)!important;
+  background-color: var(--color-drone_kousyu);
+}
+.pagetab ul li a.tab_drone_kousyu:hover {
+  color: var(--color-white)!important;
+  background-color: var(--color-drone_kousyu_txt);
+}
+
+/* ----------------------------------------------------------------
+Add Class 202408 by DesignGlobe
+---------------------------------------------------------------- */
+
+/* All Size */
+
+/* Style for PCs */
+@media screen and (min-width: 1025px) {
+
+  /* Common */
+  .fs_small {
+    font-size:70%!important;
+  }
+
+  .sectitle05_dkensa {
+    font-size:14px;
+    font-weight: 700;
+    line-height: 1.25em;
+    padding:5px;
+    color:var(--color-drone_kensa_txt);
+    background-color: var(--color-drone_kensa);
+    margin-bottom: 10px;
+  }
+
+  .sectitle05_dkousyu {
+    font-size:14px;
+    font-weight: 700;
+    line-height: 1.25em;
+    padding:5px;
+    color:var(--color-drone_kousyu_txt);
+    background-color: var(--color-drone_kousyu);
+    margin-bottom: 10px;
+  }
+
+  .pointtextbox {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:2%;
+    margin:0 auto 40px;
+    border-radius: 15px;
+    background-color: var(--color-pointcolor);
+  }
+
+  table.nomtable02added01 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--color-ccc);
+  }
+
+  table.nomtable02added01 th {
+    width: auto;
+    padding: 15px 10px;
+    font-size: 90%;
+    line-height: 1.6em;
+    border: 1px solid var(--color-ccc);
+    font-weight: 400;
+    color: var(--color-1st);
+    background-color: var(--color-f5);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  table.nomtable02added01 td {
+    width: auto;
+    padding: 15px 10px;
+    font-size: 90%;
+    line-height: 1.6em;
+    border: 1px solid var(--color-ccc);
+    vertical-align: middle;
+  }
+
+  table.nomtable02added02 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--color-ccc);
+  }
+
+  table.nomtable02added02 th {
+    width: auto;
+    padding: 15px 10px;
+    font-size: 90%;
+    line-height: 1.6em;
+    border: 1px solid var(--color-ccc);
+    font-weight: 400;
+    color: var(--color-1st);
+    background-color: var(--color-f5);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  table.nomtable02added02 td {
+    width: auto;
+    padding: 15px 10px;
+    font-size: 90%;
+    line-height: 1.6em;
+    border: 1px solid var(--color-ccc);
+    vertical-align: middle;
+  }
+  table.nomtable02added02 tr > td:nth-of-type(1) {
+    white-space: nowrap;
+  }
+
+  table.nomtable02added03 {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid var(--color-ccc);
+  }
+
+  table.nomtable02added03 th {
+    width: auto;
+    padding: 15px 10px;
+    font-size: 90%;
+    line-height: 1.6em;
+    border: 1px solid var(--color-ccc);
+    font-weight: 400;
+    color: var(--color-1st);
+    background-color: var(--color-f5);
+    vertical-align: middle;
+    text-align: center;
+  }
+
+  table.nomtable02added03 td {
+    width: auto;
+    padding: 15px 10px;
+    font-size: 90%;
+    line-height: 1.6em;
+    border: 1px solid var(--color-ccc);
+    vertical-align: middle;
+  }
+
+
+  /* Pagetitle */
+  .pagetitle .ptcov h2 {
+    font-size:140%;
+  }
+
+
+  /* Top Page -農林水産航空協会ができること- */
+  .jaline01 {
+    margin:0 auto 0px!important;
+  }
+  .jaline_add202408{
+    width:80%;
+    max-width:1280px;
+    height: auto;
+    display: block;
+    margin:0 auto 80px;
+  }
+  .jabanner_add2024308 {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .jabanner_add2024308 li {
+    width:31.3333333333%;
+    height: auto;
+    display: block;
+    margin:0 1%;
+    text-align: center;
+  }
+  .jabanner_add2024308 li a {
+    width:100%;
+    height: 170px;
+    display: block;
+    padding:110px 0 30px 0;
+    font-size:100%;
+    font-weight: 700;
+    line-height: 1.4em;
+    text-decoration: none;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: auto 120px;
+    box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .jabanner_add2024308 li a:hover {
+    color: var(--color-black);
+    background-color: var(--color-f5);
+  }
+
+.jal_add202408_01 {background-image: url(../img/ic/202408/ic-drone_kensa.png); background-color: var(--color-drone_kensa); color: var(--color-drone_kensa_txt);}
+.jal_add202408_02 {background-image: url(../img/ic/202408/ic-drone_kousyu.png); background-color: var(--color-drone_kousyu); color: var(--color-drone_kousyu_txt);}
+
+.jal_add202509_01 {background-image: url(../img/ic/202509/ic-dji_manage.png); background-color: var(--color-conne); color: var(--color-conne_txt);}
+.jal_add202509_02 {background-image: url(../img/ic/202509/ic-agri-support.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+.jal_add202509_03 {background-image: url(../img/ic/202509/ic-agri-startup.png); background-color: var(--color-drone_kousyu); color: var(--color-drone_kousyu_txt);}
+.jal_add202509_04 {background-image: url(../img/ic/202509/ic-aviation.png); background-color: var(--color-intro); color: var(--color-intro_txt);}
+.jal_add202509_05 {background-image: url(../img/ic/202509/ic-agri-support.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+
+/* FAQ */
+.qamm {
+  width:100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding:0px 0px 0px 0px;
+  }
+  .accordion-head4 {
+  font-size: 14px;
+  color:var(--color-black);
+  line-height: 40px;
+  font-weight: normal;
+  background-image: url(../img/ic/202408/ic-q.png);
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+  background-size:40px;
+  padding:5px 0 0px 50px;
+  border-top: 1px dotted var(--color-ccc);
+  cursor: pointer;
+  min-height:40px;
+  margin:0 0 5px 0;
+  }
+  .accordion-head4:first-of-type {
+    border-top:none;
+  }
+  .qaa {
+    background-image: url(../img/ic/202408/ic-a.png);
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  background-size:40px;
+  color: #333;
+  min-height:1.8em;
+  padding:20px 25px 20px 65px;
+  margin:0 0 10px 0;
+  background-color:#f9f6ef;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  }
+  .qaa p {margin-bottom: 0px;}
+
+
+  /* School List */
+  .schoollist {
+    width:100%;
+    height: auto;
+    display: block;
+  }
+  .schoollist .slbasebb{
+    width:100%;
+    height: auto;
+    display: block;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+    margin-bottom: 60px;
+  }
+  .schoollist h3 {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:15px 10px 15px 50px;
+    border:1px solid var(--color-ccc);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    cursor: pointer;
+    background-image: url(../img/ic/202408/ic-acco_dw.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 30px;
+    margin-bottom: 15px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .schoollist h3.addo_open {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:15px 10px 15px 50px;
+    border:1px solid var(--color-drone_kousyu_txt);
+    background-color:var(--color-drone_kousyu_txt);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    cursor: pointer;
+    background-image: url(../img/ic/202408/ic-acco_up.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 30px;
+    margin-bottom: 0px;
+    color:var(--color-white)!important;
+  }
+  .sl_listcc {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:50px;
+    background-color: var(--color-f8);
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+  .sllcc_sd {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:50px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    box-shadow:0px 1px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  .sl_listcc p.pref_text {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:12px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:5px 15px;
+    color:var(--color-drone_kousyu);
+    background-color: var(--color-drone_kousyu_txt);
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .sl_listcc .schoolnametitle {
+    width:100%;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+  }
+  .sl_listcc .schoolnametitle h4 {
+    font-size:32px;
+    color:var(--color-drone_kousyu_txt);
+    font-weight: 300;
+    line-height: 1.25em;
+  }
+  .sl_listcc .schoolnametitle p {
+    font-size:14px;
+    color:var(--color-black);
+    font-weight: 300;
+    line-height: 1.25em;
+    text-align: right;
+    margin-bottom: 0px;
+  }
+
+  .sl_listcc dl.dl_sllcc_sd_table {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .sl_listcc dl.dl_sllcc_sd_table dt {
+    width:20%;
+    height: auto;
+    display: block;
+    padding:10px 10px;
+    background-color: var(--color-drone_kousyu);
+    font-size:90%;
+    line-height: 1.8em;
+    color:var(--color-drone_kousyu_txt);
+    border-bottom: 1px solid var(--color-white);
+  }
+  .sl_listcc dl.dl_sllcc_sd_table dd {
+    width:80%;
+    height: auto;
+    display: block;
+    padding:10px 10px;
+    font-size:90%;
+    line-height: 1.8em;
+    border-bottom: 1px dotted var(--color-ccc);
+  }
+  p.bottomclosetxt {
+    width:fit-content;
+    height: auto;
+    display: block;
+    margin: 8px 0 0 auto;
+    font-size:11px!important;
+    line-height: 1em;
+  }
+  p.bottomclosetxt a {
+    width:fit-content;
+    height: auto;
+    display: block;
+    text-decoration: none;
+    color:var(--color-333);
+    border:1px solid var(--color-999);
+    border-radius: 3px;
+    padding:5px 5px 5px 26px;
+    background-image: url(../img/ic/202408/ic-acco_up_c.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: auto 16px;
+  }
+
+  /* 区分 */
+  .sl_kubun {
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .sl_kubun h5.sl_k_title01 {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding:3px 5px;
+    text-align: center;
+    color:var(--color-conne_txt);
+    background-color: var(--color-conne);
+    box-shadow: 0px 1px 1px #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  .sl_kubun h5.sl_k_title02 {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding:3px 5px;
+    text-align: center;
+    color:var(--color-tech_txt);
+    background-color: var(--color-tech);
+    box-shadow: 0px 1px 1px #ccc;
+    border-radius: 5px;
+    margin-bottom: 5px;
+  }
+  .sl_kubun .sl_kubun_c01 {
+    width:48%;
+    height: auto;
+    display: block;
+  }
+  .sl_kubun .sl_kubun_c02 {
+    width:48%;
+    height: auto;
+    display: block;
+  }
+
+  table.sl_kubun_table {
+    width:100%;
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: collapse;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table th.slkt_th01 {
+    width:10%;
+    background-color: var(--color-drone_kousyu_txt);
+    color: var(--color-white);
+    font-size:12px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:15px 0;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td01 {
+    width:15%;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:10px 0;
+    color: var(--color-drone_kousyu_txt);
+    background-color: var(--color-drone_kousyu);
+    border: 1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td02 {
+    width:15%;
+    font-size:16px;
+    font-weight: 300;
+    line-height: 1em;
+    padding:10px 0;
+    border: 1px solid var(--color-ccc);
+  }
+
+  table.sl_kubun_table th.slkt_th02 {
+    width:10%;
+    background-color: var(--color-tech_txt);
+    color: var(--color-white);
+    font-size:12px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:15px 0;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td03 {
+    width:15%;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:10px 0;
+    color: var(--color-tech_txt);
+    background-color: var(--color-tech);
+    border: 1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td04 {
+    width:15%;
+    font-size:16px;
+    font-weight: 300;
+    line-height: 1em;
+    padding:10px 0;
+    border: 1px solid var(--color-ccc);
+  }
+
+
+  /* お問い合わせボタン */
+  p.textbutton_contact {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:16px;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin:0 auto;
+  }
+  p.textbutton_contact a {
+    width:100%;
+    height: auto;
+    display: block;
+    color:var(--color-white);
+    text-decoration: none;
+    padding:20px 80px 20px 20px;
+    background-color: var(--color-1st);
+    background-image: url(../img/ic/202408/ic--ar_h_w.png);
+    background-repeat: no-repeat;
+    background-position: 98% center ;
+    background-size: auto 30px;
+    border-radius: 5px;
+  }
+  p.textbutton_contact a  br {
+    display: none;
+  }
+  p.textbutton_contact a:hover {
+    background-color: var(--color-black);
+  }
+
+
+
+
+}
+
+
+/* Style for iPad Pro */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+    /* Common */
+    .fs_small {
+      font-size:70%!important;
+    }
+
+    .sectitle05_dkensa {
+      font-size:14px;
+      font-weight: 700;
+      line-height: 1.25em;
+      padding:5px;
+      color:var(--color-drone_kensa_txt);
+      background-color: var(--color-drone_kensa);
+      margin-bottom: 10px;
+    }
+
+  .sectitle05_dkousyu {
+    font-size:14px;
+    font-weight: 700;
+    line-height: 1.25em;
+    padding:5px;
+    color:var(--color-drone_kousyu_txt);
+    background-color: var(--color-drone_kousyu);
+    margin-bottom: 10px;
+  }
+
+    .pointtextbox {
+      width:100%;
+      height: auto;
+      display: block;
+      padding:2%;
+      margin:0 auto 40px;
+      border-radius: 15px;
+      background-color: var(--color-pointcolor);
+    }
+
+    table.nomtable02added01 {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--color-ccc);
+    }
+
+    table.nomtable02added01 th {
+      width: auto;
+      padding: 15px 10px;
+      font-size: 90%;
+      line-height: 1.6em;
+      border: 1px solid var(--color-ccc);
+      font-weight: 400;
+      color: var(--color-1st);
+      background-color: var(--color-f5);
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    table.nomtable02added01 td {
+      width: auto;
+      padding: 15px 10px;
+      font-size: 90%;
+      line-height: 1.6em;
+      border: 1px solid var(--color-ccc);
+      vertical-align: middle;
+    }
+
+    .tablescn {
+      box-sizing: border-box;
+      border-right: 8px solid #222;
+      overflow-x: scroll;
+      -webkit-overflow-scrolling: touch;
+      }
+    table.nomtable02added02 {
+      width: 1280px;
+      border-collapse: collapse;
+      border: 1px solid var(--color-ccc);
+      table-layout: fixed;
+    }
+
+    table.nomtable02added02 th {
+      width: auto;
+      padding: 15px 10px;
+      font-size: 90%;
+      line-height: 1.6em;
+      border: 1px solid var(--color-ccc);
+      font-weight: 400;
+      color: var(--color-1st);
+      background-color: var(--color-f5);
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    table.nomtable02added02 td {
+      width: auto;
+      padding: 15px 10px;
+      font-size: 90%;
+      line-height: 1.6em;
+      border: 1px solid var(--color-ccc);
+      vertical-align: middle;
+    }
+
+    table.nomtable02added03 {
+      width: 100%;
+      border-collapse: collapse;
+      border: 1px solid var(--color-ccc);
+    }
+
+    table.nomtable02added03 th {
+      width: auto;
+      padding: 15px 10px;
+      font-size: 90%;
+      line-height: 1.6em;
+      border: 1px solid var(--color-ccc);
+      font-weight: 400;
+      color: var(--color-1st);
+      background-color: var(--color-f5);
+      vertical-align: middle;
+      text-align: center;
+    }
+
+    table.nomtable02added03 td {
+      width: auto;
+      padding: 15px 10px;
+      font-size: 90%;
+      line-height: 1.6em;
+      border: 1px solid var(--color-ccc);
+      vertical-align: middle;
+    }
+
+
+    /* Pagetitle */
+    .pagetitle .ptcov h2 {
+      padding-right:15%;
+      padding-left:15%;
+    }
+
+
+    /* Top Page -農林水産航空協会ができること- */
+    .jaline01 {
+      margin:0 auto 0px!important;
+    }
+    .jaline_add202408{
+      width:80%;
+      max-width:1280px;
+      height: auto;
+      display: block;
+      margin:0 auto 50px;
+    }
+    .jabanner_add2024308 {
+      width:100%;
+      height: auto;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+    }
+    .jabanner_add2024308 li {
+      width:31.3333333333%;
+      height: auto;
+      display: block;
+      margin:0 1%;
+      text-align: center;
+    }
+    .jabanner_add2024308 li a {
+      width:100%;
+      height: 170px;
+      display: block;
+      padding:110px 0 30px 0;
+      font-size:100%;
+      font-weight: 700;
+      line-height: 1.4em;
+      text-decoration: none;
+      border-radius: 5px;
+      background-repeat: no-repeat;
+      background-position: center top;
+      background-size: auto 120px;
+      box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+      -webkit-transition: all 0.3s ease-out;
+      -moz-transition: all 0.3s ease-out;
+      -ms-transition: all 0.3s ease-out;
+      -o-transition: all 0.3s ease-out;
+      transition: all 0.3s ease-out;
+    }
+    .jabanner_add2024308 li a:hover {
+      color: var(--color-black);
+      background-color: var(--color-f5);
+    }
+
+  .jal_add202408_01 {background-image: url(../img/ic/202408/ic-drone_kensa.png); background-color: var(--color-drone_kensa); color: var(--color-drone_kensa_txt);}
+  .jal_add202408_02 {background-image: url(../img/ic/202408/ic-drone_kousyu.png); background-color: var(--color-drone_kousyu); color: var(--color-drone_kousyu_txt);}
+
+.jal_add202509_01 {background-image: url(../img/ic/202509/ic-dji_manage.png); background-color: var(--color-conne); color: var(--color-conne_txt);}
+.jal_add202509_02 {background-image: url(../img/ic/202509/ic-agri-support.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+.jal_add202509_03 {background-image: url(../img/ic/202509/ic-agri-startup.png); background-color: var(--color-drone_kousyu); color: var(--color-drone_kousyu_txt);}
+.jal_add202509_04 {background-image: url(../img/ic/202509/ic-aviation.png); background-color: var(--color-intro); color: var(--color-intro_txt);}
+.jal_add202509_05 {background-image: url(../img/ic/202509/ic-agri-support.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+
+  /* FAQ */
+  .qamm {
+    width:100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    padding:0px 0px 0px 0px;
+    }
+    .accordion-head4 {
+    font-size: 14px;
+    color:var(--color-1st);
+    line-height: 40px;
+    font-weight: normal;
+    background-image: url(../img/ic/202408/ic-q.png);
+    background-repeat: no-repeat;
+    background-position: 0px 5px;
+    background-size:40px;
+    padding:5px 0 0px 50px;
+    border-top: 1px dotted var(--color-ccc);
+    cursor: pointer;
+    min-height:40px;
+    margin:0 0 5px 0;
+    }
+    .accordion-head4:first-of-type {
+    border-top:none;
+    }
+    .qaa {
+      background-image: url(../img/ic/202408/ic-a.png);
+    background-repeat: no-repeat;
+    background-position: 15px 15px;
+    background-size:40px;
+    color: #333;
+    min-height:1.8em;
+    padding:20px 25px 20px 65px;
+    margin:0 0 10px 0;
+    background-color:#f9f6ef;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    }
+    .qaa p {margin-bottom: 0px;}
+
+  /* School List */
+  .schoollist {
+    width:100%;
+    height: auto;
+    display: block;
+  }
+  .schoollist .slbasebb{
+    width:100%;
+    height: auto;
+    display: block;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+    margin-bottom: 60px;
+  }
+  .schoollist h3 {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:15px 10px 15px 50px;
+    border:1px solid var(--color-ccc);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    cursor: pointer;
+    background-image: url(../img/ic/202408/ic-acco_dw.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 30px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .schoollist h3.addo_open {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:15px 10px 15px 50px;
+    border:1px solid var(--color-drone_kousyu_txt);
+    background-color:var(--color-drone_kousyu_txt);
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1em;
+    cursor: pointer;
+    background-image: url(../img/ic/202408/ic-acco_up.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 30px;
+    margin-bottom: 0px;
+    color:var(--color-white)!important;
+  }
+  .sl_listcc {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:30px 30px;
+    background-color: var(--color-f8);
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+  .sllcc_sd {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:30px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    box-shadow:0px 1px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  .sl_listcc p.pref_text {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:12px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:5px 15px;
+    color:var(--color-drone_kousyu);
+    background-color: var(--color-drone_kousyu_txt);
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .sl_listcc h4 {
+    font-size:26px;
+    color:var(--color-drone_kousyu_txt);
+    font-weight: 300;
+    line-height: 1.25em;
+    margin-bottom: 5px;
+  }
+
+  .sl_listcc dl.dl_sllcc_sd_table {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .sl_listcc dl.dl_sllcc_sd_table dt {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:3px 5px;
+    background-color: var(--color-drone_kousyu);
+    font-size:90%;
+    line-height: 1.8em;
+    color:var(--color-drone_kousyu_txt);
+    border-bottom: 1px solid var(--color-white);
+  }
+  .sl_listcc dl.dl_sllcc_sd_table dd {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:5px 5px 20px 5px;
+    font-size:90%;
+    line-height: 1.8em;
+    border-bottom: 1px dotted var(--color-ccc);
+    margin-bottom: 20px;
+  }
+  p.bottomclosetxt {
+    width:fit-content;
+    height: auto;
+    display: block;
+    margin: 0 0 0 auto;
+    font-size:11px!important;
+    line-height: 1em;
+  }
+  p.bottomclosetxt a {
+    width:fit-content;
+    height: auto;
+    display: block;
+    text-decoration: none;
+    color:var(--color-333);
+    border:1px solid var(--color-999);
+    border-radius: 3px;
+    padding:5px 5px 5px 26px;
+    background-image: url(../img/ic/202408/ic-acco_up_c.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: auto 16px;
+  }
+
+  /* 区分 */
+  .sl_kubun {
+    width:100%;
+    height:auto;
+    display: flex;
+    justify-content: space-around;
+  }
+  .sl_kubun h5.sl_k_title01 {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color:var(--color-conne_txt);
+    background-color: var(--color-conne);
+  }
+  .sl_kubun h5.sl_k_title02 {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color:var(--color-tech_txt);
+    background-color: var(--color-tech);
+  }
+  .sl_kubun .sl_kubun_c01 {
+    width:48%;
+    height: auto;
+    display: block;
+  }
+  .sl_kubun .sl_kubun_c02 {
+    width:48%;
+    height: auto;
+    display: block;
+  }
+
+  table.sl_kubun_table {
+    width:100%;
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: collapse;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table th.slkt_th01 {
+    width:10%;
+    background-color: var(--color-drone_kousyu_txt);
+    color: var(--color-white);
+    font-size:12px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:15px 0;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td01 {
+    width:15%;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:10px 0;
+    color: var(--color-drone_kousyu_txt);
+    background-color: var(--color-drone_kousyu);
+    border: 1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td02 {
+    width:15%;
+    font-size:16px;
+    font-weight: 300;
+    line-height: 1em;
+    padding:10px 0;
+    border: 1px solid var(--color-ccc);
+  }
+
+  table.sl_kubun_table th.slkt_th02 {
+    width:10%;
+    background-color: var(--color-tech_txt);
+    color: var(--color-white);
+    font-size:12px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:15px 0;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td03 {
+    width:15%;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:10px 0;
+    color: var(--color-tech_txt);
+    background-color: var(--color-tech);
+    border: 1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td04 {
+    width:15%;
+    font-size:16px;
+    font-weight: 300;
+    line-height: 1em;
+    padding:10px 0;
+    border: 1px solid var(--color-ccc);
+  }
+
+    /* お問い合わせボタン */
+  p.textbutton_contact {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:16px;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin:0 auto;
+  }
+  p.textbutton_contact a {
+    width:100%;
+    height: auto;
+    display: block;
+    color:var(--color-white);
+    text-decoration: none;
+    padding:20px 80px 20px 20px;
+    background-color: var(--color-1st);
+    background-image: url(../img/ic/202408/ic--ar_h_w.png);
+    background-repeat: no-repeat;
+    background-position: 98% center ;
+    background-size: auto 30px;
+    border-radius: 5px;
+  }
+  p.textbutton_contact a  br {
+    display: none;
+  }
+  p.textbutton_contact a:hover {
+    background-color: var(--color-black);
+  }
+
+}
+
+/* Style for Smartphone */
+@media screen and (max-width: 768px) {
+
+/* Common */
+.fs_small {
+  font-size:70%!important;
+}
+
+.sectitle05_dkensa {
+  font-size:14px;
+  font-weight: 700;
+  line-height: 1.25em;
+  padding:5px;
+  color:var(--color-drone_kensa_txt);
+  background-color: var(--color-drone_kensa);
+  margin-bottom: 10px;
+}
+
+.sectitle05_dkousyu {
+  font-size:14px;
+  font-weight: 700;
+  line-height: 1.25em;
+  padding:5px;
+  color:var(--color-drone_kousyu_txt);
+  background-color: var(--color-drone_kousyu);
+  margin-bottom: 10px;
+}
+
+.pointtextbox {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:2%;
+  margin:0 auto 40px;
+  border-radius: 15px;
+  background-color: var(--color-pointcolor);
+}
+
+table.nomtable02added01 {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid var(--color-ccc);
+}
+
+table.nomtable02added01 th {
+  width: auto;
+  padding: 15px 10px;
+  font-size: 90%;
+  line-height: 1.6em;
+  border: 1px solid var(--color-ccc);
+  font-weight: 400;
+  color: var(--color-1st);
+  background-color: var(--color-f5);
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.nomtable02added01 td {
+  width: auto;
+  padding: 15px 10px;
+  font-size: 90%;
+  line-height: 1.6em;
+  border: 1px solid var(--color-ccc);
+  vertical-align: middle;
+}
+
+.tablescn {
+  box-sizing: border-box;
+  border-right: 8px solid #222;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  }
+  .tablescn_title {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .tablescn_title p {
+    font-size:10px;
+    line-height: 1em;
+    text-align: right;
+    margin:0;
+    color:var(--color-999);
+  }
+table.nomtable02added02 {
+  width: 1024px;
+  border-collapse: collapse;
+  border: 1px solid var(--color-ccc);
+  table-layout: fixed;
+}
+
+table.nomtable02added02 th {
+  width: auto;
+  padding: 15px 10px;
+  font-size: 90%;
+  line-height: 1.6em;
+  border: 1px solid var(--color-ccc);
+  font-weight: 400;
+  color: var(--color-1st);
+  background-color: var(--color-f5);
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.nomtable02added02 td {
+  width: auto;
+  padding: 15px 10px;
+  font-size: 90%;
+  line-height: 1.6em;
+  border: 1px solid var(--color-ccc);
+  vertical-align: middle;
+}
+
+.tablescn2 {
+  box-sizing: border-box;
+  border-right: 8px solid #222;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  }
+table.nomtable02added03 {
+  width: 640px;
+  border-collapse: collapse;
+  border: 1px solid var(--color-ccc);
+  table-layout: fixed;
+}
+
+table.nomtable02added03 th {
+  width: auto;
+  padding: 15px 10px;
+  font-size: 90%;
+  line-height: 1.6em;
+  border: 1px solid var(--color-ccc);
+  font-weight: 400;
+  color: var(--color-1st);
+  background-color: var(--color-f5);
+  vertical-align: middle;
+  text-align: center;
+}
+
+table.nomtable02added03 td {
+  width: auto;
+  padding: 15px 10px;
+  font-size: 90%;
+  line-height: 1.6em;
+  border: 1px solid var(--color-ccc);
+  vertical-align: middle;
+}
+
+
+/* Top Page -農林水産航空協会ができること- */
+.jaline01 {
+  margin:0 auto 0px!important;
+}
+.jaline_add202408{
+  width:100%;
+  height: auto;
+  display: block;
+  margin:0 auto 50px;
+}
+.jabanner_add2024308 {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+.jabanner_add2024308 li {
+  width:48%;
+  height: auto;
+  display: block;
+  margin:0 1% 10px;
+  text-align: center;
+}
+.jabanner_add2024308 li a {
+  width:100%;
+  height: 150px;
+  display: block;
+  padding:80px 0 20px 0;
+  font-size:90%;
+  font-weight: 700;
+  line-height: 1.4em;
+  text-decoration: none;
+  border-radius: 5px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: auto 90px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.jabanner_add2024308 li a:hover {
+  color: var(--color-black);
+  background-color: var(--color-f5);
+}
+
+.jal_add202408_01 {background-image: url(../img/ic/202408/ic-drone_kensa.png); background-color: var(--color-drone_kensa); color: var(--color-drone_kensa_txt);}
+.jal_add202408_02 {background-image: url(../img/ic/202408/ic-drone_kousyu.png); background-color: var(--color-drone_kousyu); color: var(--color-drone_kousyu_txt);}
+
+.jal_add202509_01 {background-image: url(../img/ic/202509/ic-dji_manage.png); background-color: var(--color-conne); color: var(--color-conne_txt);}
+.jal_add202509_02 {background-image: url(../img/ic/202509/ic-agri-support.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+.jal_add202509_03 {background-image: url(../img/ic/202509/ic-agri-startup.png); background-color: var(--color-drone_kousyu); color: var(--color-drone_kousyu_txt);}
+.jal_add202509_04 {background-image: url(../img/ic/202509/ic-aviation.png); background-color: var(--color-intro); color: var(--color-intro_txt);}
+.jal_add202509_05 {background-image: url(../img/ic/202509/ic-agri-support.png); background-color: var(--color-tech); color: var(--color-tech_txt);}
+
+/* FAQ */
+.qamm {
+  width:100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  padding:0px 0px 0px 0px;
+  }
+  .accordion-head4 {
+  font-size: 14px;
+  color:var(--color-1st);
+  line-height: 1.4em;
+  font-weight: normal;
+  background-image: url(../img/ic/202408/ic-q.png);
+  background-repeat: no-repeat;
+  background-position: 0px 5px;
+  background-size:40px;
+  padding:15px 0 0px 50px;
+  border-top: 1px dotted var(--color-ccc);
+  cursor: pointer;
+  min-height:40px;
+  margin:0 0 15px 0;
+  }
+  .accordion-head4:first-of-type {
+  border-top:none;
+  }
+  .qaa {
+  background-image: url(../img/ic/202408/ic-a.png);
+  background-repeat: no-repeat;
+  background-position: 15px 15px;
+  background-size:40px;
+  color: #333;
+  min-height:1.8em;
+  padding:20px 25px 20px 65px;
+  margin:0 0 10px 0;
+  background-color:#f9f6ef;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  }
+  .qaa p {margin-bottom: 0px;}
+
+
+  /* School List */
+  .schoollist {
+    width:100%;
+    height: auto;
+    display: block;
+  }
+  .schoollist .slbasebb{
+    width:100%;
+    height: auto;
+    display: block;
+    box-shadow:0px 5px 15px rgba(0,0,0,0.2);
+    margin-bottom: 60px;
+  }
+  .schoollist h3 {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:10px 10px 10px 40px;
+    border:1px solid var(--color-ccc);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1em;
+    cursor: pointer;
+    background-image: url(../img/ic/202408/ic-acco_dw.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 20px;
+    margin-bottom: 10px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .schoollist h3.addo_open {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:10px 10px 10px 40px;
+    border:1px solid var(--color-drone_kousyu_txt);
+    background-color:var(--color-drone_kousyu_txt);
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1em;
+    cursor: pointer;
+    background-image: url(../img/ic/202408/ic-acco_up.png);
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    background-size: auto 20px;
+    margin-bottom: 0px;
+    color:var(--color-white)!important;
+  }
+  .sl_listcc {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:10px 10px;
+    background-color: var(--color-f8);
+    margin-bottom: 50px;
+    border-radius: 5px;
+  }
+  .sllcc_sd {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:30px 20px;
+    background-color: var(--color-white);
+    border-radius: 10px;
+    box-shadow:0px 1px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+  }
+  .sl_listcc p.pref_text {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:12px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:5px 15px;
+    color:var(--color-drone_kousyu);
+    background-color: var(--color-drone_kousyu_txt);
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  .sl_listcc h4 {
+    font-size:20px;
+    color:var(--color-drone_kousyu_txt);
+    font-weight: 500;
+    line-height: 1.25em;
+    margin-bottom: 5px;
+  }
+
+  .sl_listcc dl.dl_sllcc_sd_table {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+  .sl_listcc dl.dl_sllcc_sd_table dt {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:3px 5px;
+    background-color: var(--color-drone_kousyu);
+    font-size:90%;
+    line-height: 1.8em;
+    color:var(--color-drone_kousyu_txt);
+    border-bottom: 1px solid var(--color-white);
+  }
+  .sl_listcc dl.dl_sllcc_sd_table dd {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:5px 5px 20px 5px;
+    font-size:90%;
+    line-height: 1.8em;
+    border-bottom: 1px dotted var(--color-ccc);
+    margin-bottom: 20px;
+  }
+  p.bottomclosetxt {
+    width:fit-content;
+    height: auto;
+    display: block;
+    margin: 0 0 0 auto;
+    font-size:11px!important;
+    line-height: 1em;
+  }
+  p.bottomclosetxt a {
+    width:fit-content;
+    height: auto;
+    display: block;
+    text-decoration: none;
+    color:var(--color-333);
+    border:1px solid var(--color-999);
+    border-radius: 3px;
+    padding:5px 5px 5px 26px;
+    background-image: url(../img/ic/202408/ic-acco_up_c.png);
+    background-repeat: no-repeat;
+    background-position: 5px center;
+    background-size: auto 16px;
+  }
+
+  /* 区分 */
+  .sl_kubun {
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+  }
+  .sl_kubun h5.sl_k_title01 {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color:var(--color-conne_txt);
+    background-color: var(--color-conne);
+  }
+  .sl_kubun h5.sl_k_title02 {
+    width: 100%;
+    height: auto;
+    display: block;
+    padding: 5px;
+    text-align: center;
+    color:var(--color-tech_txt);
+    background-color: var(--color-tech);
+  }
+  .sl_kubun .sl_kubun_c01 {
+    width:100%;
+    height: auto;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .sl_kubun .sl_kubun_c02 {
+    width:100%;
+    height: auto;
+    display: block;
+  }
+
+  table.sl_kubun_table {
+    width:100%;
+    vertical-align: middle;
+    text-align: center;
+    border-collapse: collapse;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table th.slkt_th01 {
+    width:10%;
+    background-color: var(--color-drone_kousyu_txt);
+    color: var(--color-white);
+    font-size:12px;
+    font-weight: 600;
+    line-height: 1em;
+    letter-spacing: -1px;
+    padding:15px 0;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td01 {
+    width:15%;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:10px 0;
+    color: var(--color-drone_kousyu_txt);
+    background-color: var(--color-drone_kousyu);
+    border: 1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td02 {
+    width:15%;
+    font-size:16px;
+    font-weight: 300;
+    line-height: 1em;
+    padding:10px 0;
+    border: 1px solid var(--color-ccc);
+  }
+
+  table.sl_kubun_table th.slkt_th02 {
+    width:10%;
+    background-color: var(--color-tech_txt);
+    color: var(--color-white);
+    font-size:12px;
+    letter-spacing: -1px;
+    font-weight: 600;
+    line-height: 1em;
+    padding:15px 0;
+    border:1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td03 {
+    width:15%;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:10px 0;
+    color: var(--color-tech_txt);
+    background-color: var(--color-tech);
+    border: 1px solid var(--color-ccc);
+  }
+  table.sl_kubun_table td.slkt_td04 {
+    width:15%;
+    font-size:16px;
+    font-weight: 300;
+    line-height: 1em;
+    padding:10px 0;
+    border: 1px solid var(--color-ccc);
+  }
+
+    /* お問い合わせボタン */
+  p.textbutton_contact {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:16px;
+    font-weight: 700;
+    line-height: 1.25em;
+    margin:0 auto;
+  }
+  p.textbutton_contact a {
+    width:100%;
+    height: auto;
+    display: block;
+    color:var(--color-white);
+    text-decoration: none;
+    padding:20px 80px 20px 20px;
+    background-color: var(--color-1st);
+    background-image: url(../img/ic/202408/ic--ar_h_w.png);
+    background-repeat: no-repeat;
+    background-position: 98% center ;
+    background-size: auto 30px;
+    border-radius: 5px;
+  }
+  p.textbutton_contact a  br {
+    display: none;
+  }
+  p.textbutton_contact a:hover {
+    background-color: var(--color-black);
+  }
+
+
+}

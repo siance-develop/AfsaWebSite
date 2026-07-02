@@ -1,0 +1,502 @@
+/* General settings */
+
+.bg_test_basic {background-color: #ebf1d7;}
+
+dl.dltable_test_basic dt.dt_basic_01 {
+  background-color:#647866;
+}
+dl.dltable_test_basic dt.dt_basic_02 {
+  background-color:#74977d;
+}
+dl.dltable_test_basic dt.dt_basic_03 {
+  background-color:#99ab00;
+}
+
+
+.bg_test_genchi {background-color: #eee3c9;}
+
+dl.dltable_test_basic dt.dt_genchi_01 {
+  background-color:#ac6900;
+}
+dl.dltable_test_basic dt.dt_genchi_02 {
+  background-color:#c49600;
+}
+dl.dltable_test_basic dt.dt_genchi_03 {
+  background-color:#c99278;
+}
+
+.txtct_genchi {color:#d18300!important;}
+
+
+.bg_test_facilities {background-color: #deeef3;}
+
+
+/* Style for PCs */
+@media screen and (min-width: 1025px) {
+
+/* JuTable */
+.jt_table {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jt_table dt.jtt01_dt {
+  width:20%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-white);
+  background-color: var(--color-outline_txt);
+  border-right:2px solid var(--color-white);
+  border-bottom:2px solid var(--color-white);
+}
+.jt_table dd.jtt01_dd {
+  width:80%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-black);
+  background-color: var(--color-outline);
+  border-bottom:2px solid var(--color-white);
+}
+.jt_table dt.jtt02_dt {
+  width:20%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2m;
+  color:var(--color-white);
+  border-right:2px solid var(--color-white);
+  background-color: var(--color-intro_txt);
+}
+.jt_table dd.jtt02_dd {
+  width:80%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-black);
+  background-color: var(--color-intro);
+}
+
+/* TestBasic table */
+dl.dltable_test_basic {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+dl.dltable_test_basic dt {
+  width: 19%;
+  padding: 5px 5px;
+  text-align: center;
+  font-size: 90%;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 1.6em;
+}
+
+dl.dltable_test_basic dd {
+  width: 79%;
+  font-size: 90%;
+  padding: 5px 5px;
+  border-bottom: 1px dotted var(--color-ccc);
+  line-height: 1.6em;
+}
+dl.dltable_test_basic dd li {
+  font-size:100%;
+}
+
+/* TestBasic imagelist */
+.tb_imglist {
+  width:70%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left:auto;
+}
+.tb_imglist li {
+  width:19%;
+  margin:0% 0.5%;
+}
+.tb_imglist2 {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: no-wrap;
+}
+.tb_imglist2 li {
+  width:48%;
+  margin:1%;
+}
+
+/* TestGenchi imagelist */
+.tg_imglist {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tg_imglist li {
+  width:48%;
+  margin:1%;
+}
+
+/* TestFacilities */
+.tesfa_box {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding:30px;
+  border: 1px solid var(--color-ccc);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: var(--color-white);
+}
+.tesfab_cc {
+  width:35%;
+}
+.tesfab_img {
+  width:60%;
+}
+.tesfab_img2 {
+  width:80%;
+}
+.tesfab_img ul {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tesfab_img ul li {
+  flex:1;
+  margin:0 1%;
+}
+
+.ti3 {
+  margin-left: 30px;
+}
+
+}
+
+/* Style for iPad Pro */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  /* JuTable */
+.jt_table {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jt_table dt.jtt01_dt {
+  width:20%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-white);
+  background-color: var(--color-outline_txt);
+  border-right:2px solid var(--color-white);
+  border-bottom:2px solid var(--color-white);
+}
+.jt_table dd.jtt01_dd {
+  width:80%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-black);
+  background-color: var(--color-outline);
+  border-bottom:2px solid var(--color-white);
+}
+.jt_table dt.jtt02_dt {
+  width:20%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2m;
+  color:var(--color-white);
+  border-right:2px solid var(--color-white);
+  background-color: var(--color-intro_txt);
+}
+.jt_table dd.jtt02_dd {
+  width:80%;
+  height: auto;
+  padding:30px 5%;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-black);
+  background-color: var(--color-intro);
+}
+
+/* TestBasic table */
+dl.dltable_test_basic {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+dl.dltable_test_basic dt {
+  width: 19%;
+  padding: 15px 5px;
+  text-align: center;
+  font-size: 90%;
+  font-weight: 700;
+  color: var(--color-white);
+  line-height: 1.6em;
+  margin:0.5%;
+}
+
+dl.dltable_test_basic dd {
+  width: 79%;
+  font-size: 90%;
+  padding: 15px 5px;
+  border-bottom: 1px dotted var(--color-ccc);
+  line-height: 1.6em;
+  margin:0.5%;
+}
+dl.dltable_test_basic dd li {
+  font-size:100%;
+}
+
+/* TestBasic imagelist */
+.tb_imglist {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tb_imglist li {
+  width:48%;
+  margin:1%;
+}
+
+/* TestGenchi imagelist */
+.tg_imglist {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tg_imglist li {
+  width:48%;
+  margin:1%;
+}
+
+/* TestFacilities */
+.tesfa_box {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding:30px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: var(--color-white);
+}
+.tesfab_cc {
+  width:35%;
+}
+.tesfab_img {
+  width:60%;
+}
+.tesfab_img2 {
+  width:80%;
+}
+.tesfab_img ul {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.tesfab_img ul li {
+  flex:1;
+  margin:0 1%;
+}
+.ti3 {
+  margin-left: 30px;
+}
+
+}
+
+/* Style for Smartphone */
+@media screen and (max-width: 768px) {
+
+    /* JuTable */
+.jt_table {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.jt_table dt.jtt01_dt {
+  width:100%;
+  height: auto;
+  padding:5px 5px;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-white);
+  background-color: var(--color-outline_txt);
+  margin-bottom: 15px;
+}
+.jt_table dd.jtt01_dd {
+  width:100%;
+  height: auto;
+  padding:0px 5px;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-black);
+  margin-bottom: 25px;
+}
+.jt_table dt.jtt02_dt {
+  width:100%;
+  height: auto;
+  padding:5px 5px;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-white);
+  border-right:2px solid var(--color-white);
+  background-color: var(--color-intro_txt);
+  margin-bottom: 15px;
+}
+.jt_table dd.jtt02_dd {
+  width:100%;
+  height: auto;
+  padding:0px 5px;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-black);
+}
+
+/* TestBasic table */
+dl.dltable_test_basic {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+dl.dltable_test_basic dt {
+  width:100%;
+  height: auto;
+  padding:5px 5px;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-white);
+  margin-bottom: 15px;
+}
+
+dl.dltable_test_basic dd {
+  width:100%;
+  height: auto;
+  padding:0px 5px;
+  font-size: 90%;
+  font-weight: 400;
+  line-height:2em;
+  color:var(--color-black);
+  margin-bottom: 25px;
+}
+dl.dltable_test_basic dd li {
+  font-size:100%;
+}
+
+/* TestBasic imagelist */
+.tb_imglist {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tb_imglist li {
+  width:48%;
+  margin:1%;
+}
+
+/* TestGenchi imagelist */
+.tg_imglist {
+  width:100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.tg_imglist li {
+  width:48%;
+  margin:1%;
+}
+
+/* TestFacilities */
+.tesfa_box {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:20px;
+  box-shadow: 0px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin-bottom: 15px;
+  background-color: var(--color-white);
+}
+.tesfab_cc {
+  width:100%;
+  margin-bottom: 30px;
+}
+.tesfab_img {
+  width:100%;
+}
+.tesfab_img ul {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.tesfab_img ul li {
+  width:48%;
+  margin:1%;
+}
+.tesfab_img ul li.tesfabi_w100 {
+  width:98%;
+  margin:1%;
+}
+.ti3 {
+  margin-left: 30px;
+}
+
+
+}

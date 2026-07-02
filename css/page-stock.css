@@ -1,0 +1,369 @@
+/* ----------------------------------------------------------
+General Settings
+---------------------------------------------------------- */
+.stocklist li a { background-color:var(--color-white); }
+.stocklist li a .stcc h3 { color:var(--color-1st); }
+.stocklist li a .stcc h4 { color:var(--color-black); }
+.stocklist li a .stcc .specbox dl dt { color:var(--color-1st); }
+.stocklist li a .stcc .specbox dl dd { color:var(--color-black); }
+.stocklist li a .stcc p.stprice { color:var(--color-black); }
+.stocklist li a .stcc p.stprice strong { color:var(--color-black); }
+
+
+/* ----------------------------------------------------------
+Style for Smartphone
+---------------------------------------------------------- */
+@media screen and (max-width: 768px) {
+
+  .stocklist ul {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .stocklist li {
+    width:50%;
+    padding:0;
+    border-right:1px solid var(--color-ccc);
+  }
+  .stocklist li:nth-child(2n) {
+    border-right:none;
+  }
+
+  .stocklist li a {
+    width:100%;
+    height: auto;
+    display: flex;
+    padding:5%;
+    text-decoration: none;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .stocklist li a:hover {
+    background-color:var(--color-f5);
+  }
+  .stocklist li a img {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .stocklist li a:hover img {
+    opacity: 0.5;
+  }
+  .stocklist .stcc {
+    width:100%;
+    height: auto;
+    display: block;
+    flex-grow: 1;
+    padding:25px 5px 35px;
+  }
+  .stocklist .stcc h3 {
+    font-size: 90%;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin-bottom: 5px;
+  }
+  .stocklist .stcc h4 {
+    font-size:16px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+  .stocklist .stcc .specbox {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-bottom: 5px;
+  }
+  .stocklist .stcc .specbox dl {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  .stocklist .stcc .specbox dl:last-child {
+    border-right:none;
+  }
+  .stocklist .stcc .specbox dl dt {
+    width:40%;
+    height: auto;
+    display: block;
+    text-align: left;
+    font-size:0.8em;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    padding:5px 0;
+    border-bottom:1px dotted var(--color-ccc);
+  }
+  .stocklist .stcc .specbox dl dd {
+    width:60%;
+    height: auto;
+    display: block;
+    text-align: right;
+    font-size: 80%;
+    line-height: 1.25em;
+    font-weight: 400;
+    padding:5px 0;
+    border-bottom:1px dotted var(--color-ccc);
+  }
+  .stocklist .stcc p.stprice {
+    font-size:16px;
+    font-weight: 700;
+    text-align: right;
+  }
+  .stocklist .stcc p.stprice strong {
+    font-size: 2rem;
+    font-weight:700;
+  }
+
+}
+
+/* ----------------------------------------------------------
+Style for iPad Pro
+---------------------------------------------------------- */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+  .stocklist ul {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .stocklist li {
+    width:33.3333333333333%;
+    padding:0;
+    border-right:1px solid var(--color-ccc);
+  }
+  .stocklist li:nth-child(3n) {
+    border-right:none;
+  }
+  .stocklist li:nth-child(-n + 4) {
+    border-bottom:1px solid var(--color-ccc);
+  }
+  .stocklist li:nth-last-child(-n+3) {
+    border-bottom:none;
+  }
+  .stocklist li a {
+    width:100%;
+    height: auto;
+    display: flex;
+    padding:5%;
+    text-decoration: none;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .stocklist li a:hover {
+    background-color:var(--color-f5);
+  }
+  .stocklist li a img {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .stocklist li a:hover img {
+    opacity: 0.5;
+  }
+  .stocklist .stcc {
+    width:100%;
+    height: auto;
+    display: block;
+    flex-grow: 1;
+    padding:25px 5px 35px;
+  }
+  .stocklist .stcc h3 {
+    font-size:16px;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin-bottom: 5px;
+  }
+  .stocklist .stcc h4 {
+    font-size:21px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+  .stocklist .stcc .specbox {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .stocklist .stcc .specbox dl {
+    flex:1;
+    padding:0 2%;
+    border-right:1px dotted var(--color-ccc);
+  }
+  .stocklist .stcc .specbox dl:last-child {
+    border-right:none;
+  }
+  .stocklist .stcc .specbox dl dt {
+    width:100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    padding:0 0 8px 0;
+  }
+  .stocklist .stcc .specbox dl dd {
+    width:100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+    line-height: 1.25em;
+    font-weight: 400;
+    padding:0;
+  }
+  .stocklist .stcc p.stprice {
+    font-size: 120%;
+    font-weight: 700;
+    text-align: center;
+  }
+  .stocklist .stcc p.stprice strong {
+    font-size: 2.2rem;
+  }
+
+}
+
+/* ----------------------------------------------------------
+Style for PCs
+---------------------------------------------------------- */
+@media screen and (min-width: 1025px) {
+
+  .stocklist ul {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+
+  .stocklist li {
+    width:33.3333333333333%;
+    padding:0;
+    border-right:1px solid var(--color-ccc);
+  }
+  .stocklist li:nth-child(3n) {
+    border-right:none;
+  }
+  .stocklist li:nth-child(-n + 4) {
+    border-bottom:1px solid var(--color-ccc);
+  }
+  .stocklist li:nth-last-child(-n+3) {
+    border-bottom:none;
+  }
+  .stocklist li a {
+    width:100%;
+    height: auto;
+    display: flex;
+    padding:5%;
+    text-decoration: none;
+    flex-direction: column;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .stocklist li a:hover {
+    background-color:var(--color-f5);
+  }
+  .stocklist li a img {
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -ms-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .stocklist li a:hover img {
+    opacity: 0.5;
+  }
+  .stocklist .stcc {
+    width:100%;
+    height: auto;
+    display: block;
+    flex-grow: 1;
+    padding:25px 5px 35px;
+  }
+  .stocklist .stcc h3 {
+    font-size:16px;
+    font-weight: 400;
+    line-height: 1.25em;
+    margin-bottom: 5px;
+  }
+  .stocklist .stcc h4 {
+    font-size:21px;
+    font-weight: 700;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+  }
+  .stocklist .stcc .specbox {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+  }
+  .stocklist .stcc .specbox dl {
+    flex:1;
+    padding:0 2%;
+    border-right:1px dotted var(--color-ccc);
+  }
+  .stocklist .stcc .specbox dl:last-child {
+    border-right:none;
+  }
+  .stocklist .stcc .specbox dl dt {
+    width:100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+    line-height: 1.25em;
+    letter-spacing: -0.5px;
+    font-weight: 400;
+    padding:0 0 8px 0;
+  }
+  .stocklist .stcc .specbox dl dd {
+    width:100%;
+    height: auto;
+    display: block;
+    text-align: center;
+    font-size: 90%;
+    line-height: 1.25em;
+    font-weight: 400;
+    padding:0;
+  }
+  .stocklist .stcc p.stprice {
+    font-size: 120%;
+    font-weight: 400;
+    text-align: center;
+  }
+  .stocklist .stcc p.stprice strong {
+    font-size: 2.4rem;
+    font-weight: 400;
+  }
+
+}

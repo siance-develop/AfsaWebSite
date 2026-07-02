@@ -1,0 +1,1771 @@
+.unli_red {
+  background-image: url(../img/kensyu_portal/box-kp_caution.webp);
+  background-repeat: no-repeat;
+  background-position: 0 bottom;
+  background-size: 100% 2px;
+}
+
+
+/* Style for PCs */
+@media screen and (min-width: 1025px) {
+
+/* Header */
+header h1 {
+  top:20px;
+}
+
+/* pagetitle */
+.pagetitle {
+  width:100%;
+  height: auto;
+  display: block;
+  background-image: url(../img/kensyu_portal/hrimg.webp);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-top:13%;
+}
+
+.ptcov {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding:5% 5% 0 5%;
+  background-image: url(../img/ptcov.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+}
+.pagetitle h2 {
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 1.4em;
+  color: var(--color-black);
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.pagetitle ul {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--color-white);
+}
+.pagetitle ul li {
+  font-size:12px;
+  line-height: 20px;
+}
+.pagetitle ul li:after {
+  content:" >";
+  margin-right:0.5em;
+}
+.pagetitle ul li:last-child:after {
+  content:"";
+  margin-right:0;
+}
+
+
+/* PageTab */
+.pagetab {
+  width:100%;
+  height:41px;
+  display: block;
+  background-image: url(../img/box-1st.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 100% 1px;
+  margin-top:50px;
+  margin-bottom: 30px;
+}
+.pagetab ul {
+  width:94%;
+  height:41px;
+  display: flex;
+  justify-content: flex-start;
+  margin:0 auto;
+}
+.pagetab ul li {
+  flex:1;
+   font-size: clamp(12px, 1vw, 16px);
+}
+.pagetab ul li a.pt2l {
+  height: 41px!important;
+  line-height: 1.2em;
+  padding:0;
+}
+.pagetab ul li a {
+  width:100%;
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 85%;
+  color:var(--color-999);
+  text-decoration: none;
+  line-height: 40px;
+  border-top:1px solid var(--color-ccc);
+  border-right:1px solid var(--color-ccc);
+  border-left:1px solid var(--color-ccc);
+  border-bottom:1px solid var(--color-1st);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--color-f8);
+}
+.pagetab ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-tech_txt);
+}
+.pagetab ul li a.pt_selected {
+  color: var(--color-black);
+  font-weight: 700;
+  background-color: var(--color-white);
+  border-top:1px solid var(--color-tech_txt);
+  border-right:1px solid var(--color-tech_txt);
+  border-left:1px solid var(--color-tech_txt);
+  border-bottom:1px solid var(--color-white)!important;
+}
+
+
+/* PageTab(SubContents) */
+.pagetab_ss {
+  width:90%;
+  height:35px;
+  display: block;
+  margin:0 auto 10px;
+}
+.pagetab_ss ul {
+  width:100%;
+  height:35px;
+  display: flex;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_ss ul li {
+  flex:1;
+  margin:0 0.5%;
+}
+.pagetab_ss ul li a {
+  width:100%;
+  height: 35px;
+  display: block;
+  text-align: center;
+  font-size: 90%;
+  color:var(--color-1st);
+  text-decoration: none;
+  line-height: 33px;
+  border:1px solid var(--color-1st);
+  border-radius: 5px;
+}
+.pagetab_ss ul li a br {
+  display:none;
+}
+.pagetab_ss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_ss ul li a.pts_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-1st);
+}
+
+/* PageTab(SubSubContents) */
+.pagetab_sss {
+  width:90%;
+  height:30px;
+  display: block;
+  margin:0 auto;
+}
+.pagetab_sss ul {
+  width:100%;
+  height:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_sss ul li {
+  flex:auto;
+  margin:0 0.5%;
+}
+.pagetab_sss ul li a {
+  width:100%;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-outline_txt);
+  background-color: var(--color-outline);
+  text-decoration: none;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.pagetab_sss ul li a br {
+  display: none;
+}
+.pagetab_sss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_sss ul li a.ptss_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-outline_txt);
+}
+
+
+/* List */
+ul.filelist {
+  width:100%;
+  height: auto;
+  display: block;
+}
+ul.filelist li {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size:80%;
+  line-height: 1.4em;
+  margin:10px 0 0 5px;
+}
+ul.filelist li ul {
+  width:95.5%;
+  height:auto;
+  display: block;
+  margin:0 0 0 4%;
+}
+ul.filelist li ul li {
+  font-size:100%;
+}
+ul.filelist li a {
+  width:100%;
+  height:auto;
+  display: block;
+  line-height: 1.4em;
+  padding:1em 1em 1em 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: auto 24px;
+  background-color: var(--color-f8);
+  border-radius: 5px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  color:var(--color-black);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+ul.filelist li a:hover {
+  color:var(--color-white);
+  background-color: var(--color-1st);
+}
+
+
+/*-----------------------------------------
+ Added 202509
+-----------------------------------------*/
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+/* Title link  */
+.titlelink a {
+  width:fit-content;
+  height: auto;
+  display: block;
+    font-family: var(--ft-min);
+  text-decoration: none;
+  padding-right:45px;
+  background-image: url(../img/ic/202509/ic-ar_h_cir.png);
+  background-repeat: no-repeat;
+  background-position: 95% 55%;
+  background-size: auto 24px;
+    transition: all 0.3s ease-out;
+}
+.titlelink a:hover {
+  background-position: right 55%;
+}
+
+/* Margin Left */
+.ml1em {
+  margin-left:1em;
+}
+
+/* Accordion */
+.accordionmm {
+  width:100%;
+  height: auto;
+  display: block;
+}
+.acc_base {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:10px;
+  border-radius: 5px;
+  box-shadow:0px 1px 5px rgba(0,0,0,0.15);
+  margin-bottom:30px;
+}
+.acc_base h2.accordion-title {
+  width:100%;
+  height: auto;
+  font-size: 160%;
+    font-weight: 300;
+    font-family: var(--ft-min);
+    line-height: 1.4em;
+    color: var(--color-outline_txt);
+    background-image: url(../img/kensyu_portal/ic-acco_dw.webp);
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    background-size: auto 24px;
+    cursor: pointer;
+}
+.acc_base h2.accordion-title.acct_active {
+    background-image: url(../img/kensyu_portal/ic-acco_up_c.webp);
+}
+
+.accordion-contents {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:35px 25px;
+}
+
+
+/* Service list menu */
+.servicelistmenu {
+    width:100%;
+  height: auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.servicelistmenu li {
+  width:48%;
+  height: auto;
+  display: block;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: 0.5em center;
+  background-size: auto 70%;
+  margin:0 1% 2%;
+    transition: .4s all;
+}
+.servicelistmenu li:hover {
+  opacity: 0.6;
+}
+.servicelistmenu li a {
+  width:100%;
+  height: auto;
+  display: flex;
+  padding:1.5em 2em 1.5em 8.5em;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+    transition: .4s all;
+}
+.servicelistmenu li a:hover {
+  color: var(--color-black);
+}
+.servicelistmenu li a h3 {
+  font-size:140%;
+  font-weight: 400;
+  line-height: 1.25em;
+  font-family: var(--ft-min);
+  margin-bottom:0.4em;
+}
+.servicelistmenu li a p {
+  margin:0;
+}
+
+
+/* Training institution */
+.training_institution {
+  background-color: var(--color-white)!important;
+}
+.training_institution .sllcc_sd {
+  background-color: var(--color-fc);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.15)!important;
+}
+.training_institution .sllcc_sd p.datanum_text {
+  width:fit-content;
+    height: auto;
+    display: block;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:5px 15px;
+    color:var(--color-outline_txt);
+    background-color: var(--color-drone_kousyu);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.training_institution .sllcc_sd p.pagelinkbn {
+  width:fit-content;
+  height: auto;
+  display: block;
+  margin:0;
+  border-radius: 3px;
+}
+.training_institution .sllcc_sd p.pagelinkbn a {
+  width:fit-content;
+  height: auto;
+  display: block;
+  padding:0 35px 0 10px;
+  font-size:12px;
+  line-height: 30px;
+  border-radius: 3px;
+  text-decoration: none;
+  color:var(--color-white)!important;
+  background-color: var(--color-drone_kousyu_txt);
+  background-image: url(../img/ic/202408/ic--ar_h_w.png);
+  background-repeat: no-repeat;
+  background-position: 96% center;
+  background-size: auto 18px;
+}
+.training_institution .sllcc_sd p.pagelinkbn a:hover {
+  background-color: var(--color-news_txtbg);
+}
+
+
+/* Agri support style (add202509) */
+  .newscontents {
+    width:90%;
+    height: auto;
+    display: block;
+    border:1px solid #ccc;
+    border-radius: 20px;
+    padding:50px;
+    margin:0 auto 70px;
+  }
+  ul.nwcat_list {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin:0 auto 40px;
+  }
+  ul.nwcat_list li {
+    font-size:14px;
+    text-align: center;
+    margin:0 1%;
+  }
+    ul.nwcat_list li.nwcat_selected {
+      line-height: 1em;
+      padding:0.5em 1em;
+      border-bottom: 2px solid var(--color-black);
+    }
+  ul.nwcat_list li a {
+    width:100%;
+    height: auto;
+    display: block;
+    line-height: 1em;
+    text-decoration: none;
+    color:var(--color-black);
+    padding:0.5em 1em;
+    border-radius: 3px;
+  }
+   ul.nwcat_list li a:hover {
+    color:var(--color-white);
+    background-color: var(--color-1st);
+   }
+
+   .nwc_list {
+    width:100%;
+    height: auto;
+    display: block;
+   }
+   .nwc_list dl {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .nwc_list dl dt {
+    width:10%;
+    height: auto;
+    display: block;
+    padding:1em 0;
+    font-size:14px;
+    line-height: 2em;
+    color: var(--color-1st);
+    border-bottom: 1px dotted var(--color-999);
+   }
+   .nwc_list dl dd {
+    width:90%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:1em 1em;
+    border-bottom: 1px dotted var(--color-999);
+   }
+  .nwc_list dl dd h4 {
+    width:10%;
+    height: auto;
+    display: inline-block;
+    border:1px solid var(--color-black);
+    padding:0.5em 0;
+    border-radius: 3px;
+    font-size:12px;
+    line-height: 1em;
+    text-align: center;
+  }
+  .nwc_list dl dd p {
+    width:100%;
+    height: auto;
+    display: inline-block;
+    font-size:14px;
+    line-height: 2em;
+    margin:0 0 0 1em;
+  }
+
+    p.textbutton_contact {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:16px;
+    font-weight: 700;
+    margin:0;
+  }
+  p.textbutton_contact a {
+    width:100%;
+    height: auto;
+    display: block;
+    color:var(--color-white);
+    text-decoration: none;
+    line-height: 1.5em;
+    padding:15px 80px 15px 20px;
+    background-color: var(--color-1st);
+    background-image: url(../img/ic/202408/ic--ar_h_w.png);
+    background-repeat: no-repeat;
+    background-position: 95% center ;
+    background-size: auto 25px;
+    border-radius: 5px;
+  }
+  p.textbutton_contact a  br {
+    display: none;
+  }
+  p.textbutton_contact a:hover {
+    background-color: var(--color-black);
+  }  
+
+
+  .kp_txt-caution {
+    padding-left:25px;
+    background-image: url(../img/kensyu_portal/ic-caution_c.webp);
+    background-repeat: no-repeat;
+    background-position: 0.5em 0.5em;
+    background-size: auto 1em;
+  }
+
+
+}
+
+
+/* Style for iPad Pro */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+/* pagetitle */
+.pagetitle {
+  width:100%;
+  height: auto;
+  display: block;
+  background-image: url(../img/kensyu_portal/hrimg.webp);
+  background-position: center 0;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  padding-top:13%;
+}
+
+.ptcov {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding:5% 5% 0 5%;
+  background-image: url(../img/ptcov.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+}
+.pagetitle h2 {
+  font-size: 150%;
+  font-weight: 700;
+  line-height: 1.4em;
+  color: var(--color-black);
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+.pagetitle ul {
+  width:100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  background-color: var(--color-white);
+}
+.pagetitle ul li {
+  font-size:12px;
+  line-height: 20px;
+}
+.pagetitle ul li:after {
+  content:" >";
+  margin-right:0.5em;
+}
+.pagetitle ul li:last-child:after {
+  content:"";
+  margin-right:0;
+}
+
+/* Main */
+main {
+  min-height: 600px;
+}
+
+
+/* Access */
+.mapmm iframe {
+  height: 500px;
+}
+
+
+/* PageTab */
+.pagetab {
+  width:100%;
+  height:41px;
+  display: block;
+  background-image: url(../img/box-1st.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 100% 1px;
+  margin-bottom: 30px;
+}
+.pagetab ul {
+  width:94%;
+  height:41px;
+  display: flex;
+  justify-content: flex-start;
+  margin:0 auto;
+}
+.pagetab ul li {
+  flex:1;
+   font-size: clamp(12px, 1.25vw, 16px);
+}
+.pagetab ul li a.pt2l {
+  height: 41px!important;
+  line-height: 1.2em;
+  padding:0;
+}
+.pagetab ul li a {
+  width:100%;
+  height: 41px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 85%;
+  color:var(--color-999);
+  text-decoration: none;
+  line-height: 40px;
+  border-top:1px solid var(--color-ccc);
+  border-right:1px solid var(--color-ccc);
+  border-left:1px solid var(--color-ccc);
+  border-bottom:1px solid var(--color-1st);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--color-f8);
+}
+.pagetab ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-tech_txt);
+}
+.pagetab ul li a.pt_selected {
+  color: var(--color-black);
+  font-weight: 700;
+  background-color: var(--color-white);
+  border-top:1px solid var(--color-tech_txt);
+  border-right:1px solid var(--color-tech_txt);
+  border-left:1px solid var(--color-tech_txt);
+  border-bottom:1px solid var(--color-white)!important;
+}
+
+
+/* PageTab(SubContents) */
+.pagetab_ss {
+  width:90%;
+  height:35px;
+  display: block;
+  margin:0 auto 10px;
+}
+.pagetab_ss ul {
+  width:100%;
+  height:35px;
+  display: flex;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_ss ul li {
+  flex:1;
+  margin:0 0.5%;
+}
+.pagetab_ss ul li a {
+  width:100%;
+  height: 35px;
+  display: block;
+  text-align: center;
+  font-size: 90%;
+  color:var(--color-1st);
+  text-decoration: none;
+  line-height: 33px;
+  border:1px solid var(--color-1st);
+  border-radius: 5px;
+}
+.pagetab_ss ul li a br {
+  display:none;
+}
+.pagetab_ss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_ss ul li a.pts_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-1st);
+}
+
+/* PageTab(SubSubContents) */
+.pagetab_sss {
+  width:90%;
+  height:30px;
+  display: block;
+  margin:0 auto 30px;
+}
+.pagetab_sss ul {
+  width:100%;
+  height:30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin:0 auto;
+}
+.pagetab_sss ul li {
+  width:49%;
+  margin:0 0.5% 8px;
+}
+.pagetab_sss ul li a {
+  width:100%;
+  height: 30px;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-outline_txt);
+  background-color: var(--color-outline);
+  text-decoration: none;
+  line-height: 30px;
+  border-radius: 5px;
+}
+.pagetab_sss ul li a br {
+  display: none;
+}
+.pagetab_sss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_sss ul li a.ptss_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-outline_txt);
+}
+
+
+/* List */
+ul.filelist {
+  width:100%;
+  height: auto;
+  display: block;
+}
+ul.filelist li {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size:80%;
+  line-height: 1.4em;
+  margin:10px 0 0 5px;
+}
+ul.filelist li ul {
+  width:95.5%;
+  height:auto;
+  display: block;
+  margin:0 0 0 4%;
+}
+ul.filelist li ul li {
+  font-size:100%;
+}
+ul.filelist li a {
+  width:100%;
+  height:auto;
+  display: block;
+  line-height: 1.4em;
+  padding:1em 1em 1em 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: auto 24px;
+  background-color: var(--color-f8);
+  border-radius: 5px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  color:var(--color-black);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+ul.filelist li a:hover {
+  color:var(--color-white);
+  background-color: var(--color-1st);
+}
+
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+
+/*-----------------------------------------
+ Added 202509
+-----------------------------------------*/
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+/* Title link  */
+.titlelink a {
+  width:fit-content;
+  height: auto;
+  display: block;
+    font-family: var(--ft-min);
+  text-decoration: none;
+  padding-right:45px;
+  background-image: url(../img/ic/202509/ic-ar_h_cir.png);
+  background-repeat: no-repeat;
+  background-position: 95% 55%;
+  background-size: auto 24px;
+    transition: all 0.3s ease-out;
+}
+.titlelink a:hover {
+  background-position: right 55%;
+}
+
+/* Margin Left */
+.ml1em {
+  margin-left:1em;
+}
+
+/* Accordion */
+.accordionmm {
+  width:100%;
+  height: auto;
+  display: block;
+}
+.acc_base {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:10px;
+  border-radius: 5px;
+  box-shadow:0px 1px 5px rgba(0,0,0,0.15);
+  margin-bottom:30px;
+}
+.acc_base h2.accordion-title {
+  width:100%;
+  height: auto;
+  font-size: 160%;
+    font-weight: 300;
+    font-family: var(--ft-min);
+    line-height: 1.4em;
+    color: var(--color-outline_txt);
+    background-image: url(../img/kensyu_portal/ic-acco_dw.webp);
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    background-size: auto 24px;
+    cursor: pointer;
+}
+.acc_base h2.accordion-title.acct_active {
+    background-image: url(../img/kensyu_portal/ic-acco_up_c.webp);
+}
+
+.accordion-contents {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:35px 25px;
+}
+
+
+/* Service list menu */
+.servicelistmenu {
+    width:100%;
+  height: auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.servicelistmenu li {
+  width:98%;
+  height: auto;
+  display: block;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: 3% center;
+  background-size: auto 80%;
+  margin:0 1% 2%;
+}
+.servicelistmenu li a {
+  width:100%;
+  height: auto;
+  display: flex;
+  padding:1.5em 2em 1.5em 8em;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+    transition: .4s all;
+}
+.servicelistmenu li a h3 {
+  font-size:140%;
+  font-weight: 400;
+  line-height: 1.25em;
+  font-family: var(--ft-min);
+  margin-bottom:0.4em;
+}
+.servicelistmenu li a p {
+  margin:0;
+}
+
+
+/* Training institution */
+.training_institution {
+  background-color: var(--color-white)!important;
+}
+.training_institution .sllcc_sd {
+  background-color: var(--color-fc);
+  box-shadow: 0px 10px 20px rgba(0,0,0,0.15)!important;
+}
+.training_institution .sllcc_sd p.datanum_text {
+  width:fit-content;
+    height: auto;
+    display: block;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:5px 15px;
+    color:var(--color-outline_txt);
+    background-color: var(--color-drone_kousyu);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.training_institution .sllcc_sd p.pagelinkbn {
+  width:fit-content;
+  height: auto;
+  display: block;
+  margin:0;
+  border-radius: 3px;
+}
+.training_institution .sllcc_sd p.pagelinkbn a {
+  width:fit-content;
+  height: auto;
+  display: block;
+  padding:0 35px 0 10px;
+  font-size:12px;
+  line-height: 30px;
+  border-radius: 3px;
+  text-decoration: none;
+  color:var(--color-white)!important;
+  background-color: var(--color-drone_kousyu_txt);
+  background-image: url(../img/ic/202408/ic--ar_h_w.png);
+  background-repeat: no-repeat;
+  background-position: 96% center;
+  background-size: auto 18px;
+}
+.training_institution .sllcc_sd p.pagelinkbn a:hover {
+  background-color: var(--color-news_txtbg);
+}
+
+
+/* Agri support style (add202509) */
+  .newscontents {
+    width:100%;
+    height: auto;
+    display: block;
+    border:1px solid #ccc;
+    border-radius: 20px;
+    padding:50px;
+    margin:0 auto 70px;
+  }
+  ul.nwcat_list {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin:0 auto 40px;
+  }
+  ul.nwcat_list li {
+    font-size:14px;
+    text-align: center;
+    margin:0 1%;
+  }
+    ul.nwcat_list li.nwcat_selected {
+      line-height: 1em;
+      padding:0.5em 1em;
+      border-bottom: 2px solid var(--color-black);
+    }
+  ul.nwcat_list li a {
+    width:100%;
+    height: auto;
+    display: block;
+    line-height: 1em;
+    text-decoration: none;
+    color:var(--color-black);
+    padding:0.5em 1em;
+    border-radius: 3px;
+  }
+   ul.nwcat_list li a:hover {
+    color:var(--color-white);
+    background-color: var(--color-1st);
+   }
+
+   .nwc_list {
+    width:100%;
+    height: auto;
+    display: block;
+   }
+   .nwc_list dl {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .nwc_list dl dt {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:0;
+    font-size:14px;
+    line-height: 2em;
+    color: var(--color-1st);
+    border-bottom: none;
+   }
+   .nwc_list dl dd {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:10px 0 20px 0;
+    border-bottom: 1px dotted var(--color-999);
+    margin-bottom: 20px;
+   }
+  .nwc_list dl dd h4 {
+    width:15%;
+    height: auto;
+    display: inline-block;
+    border:1px solid var(--color-black);
+    padding:0.5em 0;
+    border-radius: 3px;
+    font-size:12px;
+    line-height: 1em;
+    text-align: center;
+  }
+  .nwc_list dl dd p {
+    width:100%;
+    height: auto;
+    display: inline-block;
+    font-size:14px;
+    line-height: 2em;
+    margin:0 0 0 1em;
+  }
+
+    p.textbutton_contact {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:16px;
+    font-weight: 700;
+    margin:0;
+  }
+  p.textbutton_contact a {
+    width:100%;
+    height: auto;
+    display: block;
+    color:var(--color-white);
+    text-decoration: none;
+    line-height: 1.5em;
+    padding:15px 80px 15px 20px;
+    background-color: var(--color-1st);
+    background-image: url(../img/ic/202408/ic--ar_h_w.png);
+    background-repeat: no-repeat;
+    background-position: 95% center ;
+    background-size: auto 25px;
+    border-radius: 5px;
+  }
+  p.textbutton_contact a  br {
+    display: none;
+  }
+  p.textbutton_contact a:hover {
+    background-color: var(--color-black);
+  }
+
+
+  .kp_txt-caution {
+    padding-left:25px;
+    background-image: url(../img/kensyu_portal/ic-caution_c.webp);
+    background-repeat: no-repeat;
+    background-position: 0.5em 0.5em;
+    background-size: auto 1em;
+  }
+
+
+
+}
+
+/* Style for Smartphone */
+@media screen and (max-width: 768px) {
+
+main {
+  background-color: var(--color-white);
+}
+
+  /* pagetitle */
+  .pagetitle {
+    width:100%;
+    height: auto;
+    display: block;
+    background-image: url(../img/kensyu_portal/hrimg.webp);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 150px;
+    padding-top:80px;
+  }
+  .ptcov {
+    width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding:10% 5% 0 5%;
+  background-image: url(../img/ptcov.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% auto;
+  }
+  .pagetitle h2 {
+    width:100%;
+    height: auto;
+    display: block;
+    font-size: 110%;
+    font-weight: 700;
+    line-height: 1.4em;
+    color: var(--color-black);
+    text-align: left;
+    margin-bottom:10px;
+    padding:0;
+    background-image: url(../img/ptcov.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% auto;
+  }
+  .pagetitle ul {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 0px;
+  }
+  .pagetitle ul li {
+    font-size: 10px;
+    line-height: 1.5em;
+    margin:0;
+    padding:0;
+  }
+  .pagetitle ul li:after {
+    content:" >";
+    margin-right:0.25em;
+  }
+  .pagetitle ul li:last-child:after {
+    content:"";
+    margin-right:0;
+  }
+
+/* Main */
+main {
+  min-height: 400px;
+}
+
+/* Access */
+.mapmm iframe {
+  height: 350px;
+}
+
+
+/* PageTab */
+.pagetab {
+  width:100%;
+  height:auto;
+  display: block;
+  background-image: url(../img/box-1st.png);
+  background-repeat: repeat-x;
+  background-position: 0 bottom;
+  background-size: 100% 1px;
+  margin-bottom: 30px;
+}
+.pagetab ul {
+  width:98%;
+  height:auto;
+  display: flex;
+  margin:0 auto;
+}
+.pagetab ul li {
+  flex:1;
+   font-size: 10px;
+}
+.pagetab ul li a.pt2l {
+  height: 41px!important;
+  padding:0;
+}
+.pagetab ul li a {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-size: 85%;
+  color:var(--color-999);
+  text-decoration: none;
+  line-height: 1.2em;
+  border-top:1px solid var(--color-ccc);
+  border-right:1px solid var(--color-ccc);
+  border-left:1px solid var(--color-ccc);
+  border-bottom:1px solid var(--color-1st);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: var(--color-f8);
+}
+.pagetab ul li a br {
+  display: none;
+}
+.pagetab ul li a.pt1l {
+  height: 50px!important;
+  line-height: 50px;
+}
+.pagetab ul li a.pt2l {
+  height: 50px!important;
+  line-height: 1.2em;
+  padding:0;
+}
+.pagetab ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-tech_txt);
+}
+.pagetab ul li a.pt_selected {
+  height: 50px!important;
+  color: var(--color-black);
+  font-weight: 700;
+  background-color: var(--color-white);
+  border-top:1px solid var(--color-tech_txt);
+  border-right:1px solid var(--color-tech_txt);
+  border-left:1px solid var(--color-tech_txt);
+  border-bottom:1px solid var(--color-white)!important;
+}
+
+
+/* PageTab(SubContents) */
+.pagetab_ss {
+  width:98%;
+  height:auto;
+  display: block;
+  margin:0 auto 10px;
+}
+.pagetab_ss ul {
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content:space-between;
+  margin:0 auto;
+}
+.pagetab_ss ul li {
+  flex:1;
+  margin:0 0.5%;
+}
+.pagetab_ss ul li a {
+  width:100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-1st);
+  text-decoration: none;
+  line-height: 1.25em;
+  border:1px solid var(--color-1st);
+  border-radius: 5px;
+  padding:5px 0;
+}
+.pagetab_ss ul li a.pts1l {
+  line-height: 2.5em;
+}
+.pagetab_ss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_ss ul li a.pts_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-1st);
+}
+
+/* PageTab(SubSubContents) */
+.pagetab_sss {
+  width:90%;
+  height:auto;
+  display: block;
+  margin:0 auto 30px;
+}
+.pagetab_sss ul {
+  width:100%;
+  height:auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start;
+  margin:0 auto;
+}
+.pagetab_sss ul li {
+  width:49%;
+  margin:0 0.5% 8px;
+}
+.pagetab_sss ul li a {
+  width:100%;
+  height: auto;
+  display: block;
+  text-align: center;
+  font-size: 80%;
+  color:var(--color-outline_txt);
+  background-color: var(--color-outline);
+  text-decoration: none;
+  line-height: 1.25em;
+  border-radius: 5px;
+  padding:5px 0;
+}
+.pagetab_sss ul li a.ptss1l {
+  line-height: 3.75em;
+}
+.pagetab_sss ul li a.ptss2l {
+  line-height: 1.25em;
+  padding:1.04em 0;
+}
+.pagetab_sss ul li a:hover {
+  color: var(--color-white);
+  background-color: var(--color-1st);
+}
+.pagetab_sss ul li a.ptss_selected {
+  color: var(--color-white);
+  font-weight: 700;
+  background-color: var(--color-outline_txt);
+}
+
+
+/* List */
+ul.filelist {
+  width:100%;
+  height: auto;
+  display: block;
+}
+ul.filelist li {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size: 90%;
+  line-height: 1.4em;
+  margin:10px 0 0 5px;
+}
+ul.filelist li ul {
+  width:95.5%;
+  height:auto;
+  display: block;
+  margin:0 0 0 4%;
+}
+ul.filelist li a {
+  width:100%;
+  height:auto;
+  display: block;
+  font-size: 90%;
+  line-height: 1.4em;
+  padding:1em 1em 1em 50px;
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  background-size: auto 24px;
+  background-color: var(--color-f8);
+  border-radius: 5px;
+  box-shadow:0px 1px 3px rgba(0,0,0,0.2);
+  color:var(--color-black);
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -ms-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+ul.filelist li a:hover {
+  color:var(--color-white);
+  background-color: var(--color-1st);
+}
+
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+
+/*-----------------------------------------
+ Added 202509
+-----------------------------------------*/
+
+/* CautionBox */
+.cautionbox {
+  width:100%;
+  height: auto;
+  display: block;
+  background-color: rgb(247, 243, 237);
+  border:1px solid var(--color-intro);
+  border-radius: 10px;
+  padding:25px;
+}
+
+/* Title link  */
+.titlelink a {
+  width:fit-content;
+  height: auto;
+  display: block;
+    font-family: var(--ft-min);
+  text-decoration: none;
+  padding-right:45px;
+  background-image: url(../img/ic/202509/ic-ar_h_cir.png);
+  background-repeat: no-repeat;
+  background-position: 95% 55%;
+  background-size: auto 24px;
+    transition: all 0.3s ease-out;
+}
+.titlelink a:hover {
+  background-position: right 55%;
+}
+
+/* Margin Left */
+.ml1em {
+  margin-left:1em;
+}
+
+/* Accordion */
+.accordionmm {
+  width:100%;
+  height: auto;
+  display: block;
+}
+.acc_base {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:10px;
+  border-radius: 5px;
+  box-shadow:0px 1px 5px rgba(0,0,0,0.15);
+  margin-bottom:30px;
+}
+.acc_base h2.accordion-title {
+  width:100%;
+  height: auto;
+  font-size: 130%;
+    font-weight: 300;
+    font-family: var(--ft-min);
+    line-height: 1.4em;
+    color: var(--color-outline_txt);
+    background-image: url(../img/kensyu_portal/ic-acco_dw.webp);
+    background-repeat: no-repeat;
+    background-position: 98% center;
+    background-size: auto 24px;
+    cursor: pointer;
+}
+.acc_base h2.accordion-title.acct_active {
+    background-image: url(../img/kensyu_portal/ic-acco_up_c.webp);
+}
+
+.accordion-contents {
+  width:100%;
+  height: auto;
+  display: block;
+  padding:25px 15px;
+}
+
+
+/* Service list menu */
+.servicelistmenu {
+    width:100%;
+  height: auto;
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.servicelistmenu li {
+  width:90%;
+  height: auto;
+  display: block;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  background-repeat: no-repeat;
+  background-position: center 0em;
+  background-size: auto 8em;
+  margin:0 auto 5%;
+}
+.servicelistmenu li a {
+  width:100%;
+  height: auto;
+  display: flex;
+  padding:7.5em 1.5em 1.5em 1.5em;
+  text-decoration: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+    transition: .4s all;
+}
+.servicelistmenu li a:hover {
+  color: var(--color-black);
+  filter: brightness(90%);
+}
+.servicelistmenu li a h3 {
+  font-size:120%;
+  font-weight: 400;
+  line-height: 1.25em;
+  font-family: var(--ft-min);
+  margin-bottom:0.4em;
+}
+.servicelistmenu li a p {
+  margin:0;
+}
+
+/* Training institution */
+.training_institution {
+  background-color: var(--color-white)!important;
+}
+.training_institution .sllcc_sd {
+  background-color: var(--color-fc);
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.15)!important;
+}
+.training_institution .sllcc_sd p.datanum_text {
+  width:fit-content;
+    height: auto;
+    display: block;
+    font-size:12px;
+    font-weight: 400;
+    line-height: 1em;
+    padding:5px 15px;
+    color:var(--color-outline_txt);
+    background-color: var(--color-drone_kousyu);
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.training_institution .sllcc_sd p.pagelinkbn {
+  width:fit-content!important;
+  height: auto;
+  display: block;
+  margin:0 auto!important;
+  border-radius: 3px;
+}
+.training_institution .sllcc_sd p.pagelinkbn a {
+  width:fit-content;
+  height: auto;
+  display: block;
+  padding:0 35px 0 10px;
+  font-size:12px;
+  line-height: 30px;
+  border-radius: 3px;
+  text-decoration: none;
+  color:var(--color-white)!important;
+  background-color: var(--color-drone_kousyu_txt);
+  background-image: url(../img/ic/202408/ic--ar_h_w.png);
+  background-repeat: no-repeat;
+  background-position: 96% center;
+  background-size: auto 18px;
+}
+.training_institution .sllcc_sd p.pagelinkbn a:hover {
+  background-color: var(--color-news_txtbg);
+}
+
+
+/* Agri support style (add202509) */
+  .newscontents {
+    width:100%;
+    height: auto;
+    display: block;
+    border:1px solid #ccc;
+    border-radius: 20px;
+    padding:50px;
+    margin:0 auto 70px;
+  }
+  ul.nwcat_list {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin:0 auto 40px;
+  }
+  ul.nwcat_list li {
+    font-size:14px;
+    text-align: center;
+    margin:0 1%;
+  }
+    ul.nwcat_list li.nwcat_selected {
+      line-height: 1em;
+      padding:0.5em 1em;
+      border-bottom: 2px solid var(--color-black);
+    }
+  ul.nwcat_list li a {
+    width:100%;
+    height: auto;
+    display: block;
+    line-height: 1em;
+    text-decoration: none;
+    color:var(--color-black);
+    padding:0.5em 1em;
+    border-radius: 3px;
+  }
+   ul.nwcat_list li a:hover {
+    color:var(--color-white);
+    background-color: var(--color-1st);
+   }
+
+   .nwc_list {
+    width:100%;
+    height: auto;
+    display: block;
+   }
+   .nwc_list dl {
+    width:100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+   }
+   .nwc_list dl dt {
+    width:100%;
+    height: auto;
+    display: block;
+    padding:0;
+    font-size:14px;
+    line-height: 2em;
+    color: var(--color-1st);
+    border-bottom: none;
+   }
+   .nwc_list dl dd {
+    width:100%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding:10px 0 20px 0;
+    border-bottom: 1px dotted var(--color-999);
+    margin-bottom: 20px;
+   }
+  .nwc_list dl dd h4 {
+    width:15%;
+    height: auto;
+    display: inline-block;
+    border:1px solid var(--color-black);
+    padding:0.5em 0;
+    border-radius: 3px;
+    font-size:12px;
+    line-height: 1em;
+    text-align: center;
+  }
+  .nwc_list dl dd p {
+    width:100%;
+    height: auto;
+    display: inline-block;
+    font-size:14px;
+    line-height: 2em;
+    margin:0 0 0 1em;
+  }
+
+    p.textbutton_contact {
+    width:fit-content;
+    height: auto;
+    display: block;
+    font-size:14px;
+    font-weight: 700;
+    margin:0;
+  }
+  p.textbutton_contact a {
+    width:100%;
+    height: auto;
+    display: block;
+    color:var(--color-white);
+    text-decoration: none;
+    line-height: 1.5em;
+    padding:15px 80px 15px 20px;
+    background-color: var(--color-1st);
+    background-image: url(../img/ic/202408/ic--ar_h_w.png);
+    background-repeat: no-repeat;
+    background-position: 95% center ;
+    background-size: auto 25px;
+    border-radius: 5px;
+  }
+  p.textbutton_contact a  br {
+    display: none;
+  }
+  p.textbutton_contact a:hover {
+    background-color: var(--color-black);
+  }
+
+
+  .kp_txt-caution {
+    padding-left:25px;
+    background-image: url(../img/kensyu_portal/ic-caution_c.webp);
+    background-repeat: no-repeat;
+    background-position: 0.5em 0.5em;
+    background-size: auto 1em;
+  }
+
+
+}

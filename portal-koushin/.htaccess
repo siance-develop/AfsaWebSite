@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "IDとパスワードを入力ください"
+AuthUserFile /www/a-mail/j3a.or.jp/public_html/portal/.htpasswd
+require valid-user
